@@ -1,0 +1,44 @@
+outlev=2
+
+ Nonzeros allowed for in LU factors    12199
+
+ Scale option  1,    Partial price   1
+ 
+ Itn      0 -- linear constraints satisfied.
+ funcon  sets      20   out of      20   constraint gradients.
+ funobj  sets      22   out of      22   objective  gradients.
+     1     0T 0.0E+00  3.49685E+02 4.1E-02 8.3E-01    0      3 1.0E+00     0  
+     2    41T 1.0E+00  3.39581E+02 5.3E-04 6.0E-03    6     86 1.0E+00     0  
+     3     3  1.0E+00  3.37941E+02 8.7E-05 1.5E-03    7     94 1.0E+00     6  
+ Completion Full    now requested
+     4    12  1.0E+00  3.37785E+02 1.6E-05 4.6E-05    6    118 1.0E+00     0  
+     5     2  1.0E+00  3.37772E+02 1.9E-08 6.4E-08    6    121 1.0E+00     0  
+     6     1  1.0E+00  3.37772E+02 2.6E-14 2.0E-10    6    123 1.0E-01     0  
+ 
+ EXIT -- optimal solution found
+
+ Problem name                         
+ No. of iterations                  59   Objective value      3.3777247076E+02
+ No. of major iterations             6   Linear objective     0.0000000000E+00
+ Penalty parameter             .010000   Nonlinear objective  3.3777247076E+02
+ No. of calls to funobj            124   No. of calls to funcon            123
+ No. of superbasics                  6   No. of basic nonlinears            16
+ No. of degenerate steps             0   Percentage                        .00
+ Max x       (scaled)       21 6.0E+00   Max pi      (scaled)        3 9.0E+01
+ Max x                      21 6.0E+00   Max pi                      3 9.0E+01
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)       21 1.8E-08
+ Max Primal infeas           0 0.0E+00   Max Dual infeas            21 1.8E-08
+ Nonlinear constraint violn    1.8E-13
+
+ funcon called with nstate =   2
+
+ funobj called with nstate =   2
+
+ Time for MPS input                            .00 seconds
+ Time for solving problem                      .00 seconds
+ Time for solution output                      .00 seconds
+ Time for constraint functions                 .00 seconds
+ Time for objective function                   .00 seconds
+MINOS 5.51: optimal solution found.
+59 iterations, objective 337.7724707639982
+Nonlin evals: obj = 125, grad = 122, constrs = 124, Jac = 122.

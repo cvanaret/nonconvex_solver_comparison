@@ -1,0 +1,28 @@
+outlev=2
+
+ Nonzeros allowed for in LU factors    12662
+
+ Scale option  2,    Partial price   6
+ 
+ Itn     10 -- linear E rows feasible.   Obj =   9.075000000E+03
+ Itn     16 -- feasible solution.  Objective =   1.069591335E+04
+ Itn     34 --     14  nonbasics set on bound, basics recomputed
+ Itn     34 -- feasible solution.  Objective =   5.742163349E+03
+ 
+ EXIT -- optimal solution found
+
+ Problem name                         
+ No. of iterations                  34   Objective value      5.7421633489E+03
+ No. of degenerate steps            16   Percentage                      47.06
+ Max x       (scaled)       38 1.0E+00   Max pi      (scaled)       33 4.9E+03
+ Max x                       2 1.0E+00   Max pi                      8 4.6E+03
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)       60 6.8E-13
+ Max Primal infeas           0 0.0E+00   Max Dual infeas            60 6.2E-13
+
+ Time for MPS input                            .00 seconds
+ Time for solving problem                      .00 seconds
+ Time for solution output                      .00 seconds
+ Time for constraint functions                 .00 seconds
+ Time for objective function                   .00 seconds
+MINOS 5.51: optimal solution found.
+34 iterations, objective 5742.1633489461365

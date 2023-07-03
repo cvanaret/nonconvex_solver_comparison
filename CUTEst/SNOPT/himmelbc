@@ -1,0 +1,48 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       2     Linear constraints       0
+ Nonlinear variables         2     Linear variables         0
+ Jacobian  variables         2     Objective variables      2
+ Total constraints           2     Total variables          2
+ 
+
+ 
+ The user has defined       4   out of       4   constraint gradients.
+ SnOptB  will define        2   gradients for the  FP objective.
+ 
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     0      2               1  9.0E+00  1.6E+00  0.0000000E+00                  r
+     1      0  2.3E-01      2  3.0E+00  2.0E+00  9.0428077E+00        3.3E-01   rl
+     2      0  8.1E-01      3  8.8E-02  1.4E-02 -5.3483849E-02        3.3E-01 sm l
+     3      0  8.1E-01      5  1.8E-02  1.5E-03  6.9979989E-05        1.5E+00  m
+     4      0  1.0E+00      6  8.4E-05  3.4E-06  2.5014960E-04        1.6E+00
+     5      0  1.0E+00      7 (1.3E-09)(3.9E-13) 2.5000000E-04        1.6E+00
+ 
+ SNOPTB EXIT   0 -- finished successfully
+ SNOPTB INFO   2 -- feasible point found
+
+ Problem name                 himmelbc
+ No. of iterations                   2   Objective            0.0000000000E+00
+ No. of major iterations             5   Linear    obj. term  0.0000000000E+00
+ Penalty parameter           1.622E+00   Norm (x - x0)**2     2.5000000007E-04
+ No. of calls to funobj              0   No. of calls to funcon              8
+ No. of degenerate steps             0   Percentage                        .00
+ Max x                       1 3.0E+00   Max pi                      1 3.0E-05
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             1 3.9E-13
+ Nonlinear constraint violn    3.8E-09
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Feasible point found.
+2 iterations, objective 0
+Nonlin evals: constrs = 8, Jac = 7.

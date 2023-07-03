@@ -1,0 +1,43 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       0     Linear constraints       1
+ Nonlinear variables         5     Linear variables         0
+ Jacobian  variables         0     Objective variables      5
+ Total constraints           1     Total variables          5
+ 
+
+ 
+ The user has defined       5   out of       5   objective  gradients.
+ 
+
+ Major Minors     Step   nObj Feasible  Optimal      Objective     nS
+     0      0               1          (0.0E+00) 2.0000000E+00          r
+ 
+ SNOPTB EXIT   0 -- finished successfully
+ SNOPTB INFO   1 -- optimality conditions satisfied
+
+ Problem name                 hs045
+ No. of iterations                   0   Objective            2.0000000000E+00
+ No. of major iterations             0   Linear    obj. term  0.0000000000E+00
+                                         Nonlinear obj. term  2.0000000000E+00
+ No. of calls to funobj              2   No. of calls to funcon              0
+ No. of degenerate steps             0   Percentage                        .00
+ Max x       (scaled)        1 0.0E+00   Max pi      (scaled)        1 1.0E+00
+ Max x                       1 0.0E+00   Max pi                      1 1.0E+00
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)        0 0.0E+00
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             0 0.0E+00
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+0 iterations, objective 2
+Nonlin evals: obj = 2, grad = 1.

@@ -1,0 +1,4 @@
+constraint _scon[2]: Infeasibility in pre-triangular part of model.
+variable _svar[2]: Infeasibility in pre-triangular part of model.
+CONOPT 3.17A: Locally infeasible; objective 0
+0 iterations; evals: nf = 2, ng = 0, nc = 42, nJ = 42, nH = 0, nHv = 0

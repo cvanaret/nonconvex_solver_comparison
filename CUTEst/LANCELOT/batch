@@ -1,0 +1,7 @@
+
+ SBMIN : maximum number of iterations reached 
+LANCELOT: too many iterations.
+1000 iterations; objective 180781.05414073518
+M = 69, N = 103, nslacks = 57, NEL = 5, NG = 75
+5 nontrivial linear maps reduce 10 variables to 5.
+NFCALL = 1000, NGCALL = 832

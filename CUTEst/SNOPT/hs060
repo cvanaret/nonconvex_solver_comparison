@@ -1,0 +1,53 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       1     Linear constraints       1
+ Nonlinear variables         3     Linear variables         0
+ Jacobian  variables         3     Objective variables      3
+ Total constraints           2     Total variables          3
+ 
+
+ 
+ The user has defined       3   out of       3   constraint gradients.
+ The user has defined       3   out of       3   objective  gradients.
+ 
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     0      2               1  8.9E+00  1.8E+00  1.0000000E+00      2           r
+     1      1  5.5E-01      3  4.7E+00  1.0E+00  5.7729477E-01      2           r
+     2      1  3.0E-01      5  3.8E+00  1.0E+00  3.0829113E-01      2         s
+     3      1  1.0E+00      6  6.5E-01  2.6E-01  6.8561089E-02      2
+     4      1  1.0E+00      7  6.1E-02  2.1E-01  3.9582898E-02      2
+     5      1  1.0E+00      8  1.7E-03  4.4E-02  3.2873282E-02      2
+     6      1  1.0E+00      9  1.6E-04  3.9E-03  3.2570846E-02      2
+     7      1  1.0E+00     10  2.7E-06  2.7E-04  3.2568211E-02      2
+     8      1  1.0E+00     11 (2.4E-09) 4.7E-05  3.2568201E-02      2
+     9      1  1.0E+00     12 (1.3E-10)(7.4E-09) 3.2568200E-02      2
+ 
+ SNOPTB EXIT   0 -- finished successfully
+ SNOPTB INFO   1 -- optimality conditions satisfied
+
+ Problem name                 hs060
+ No. of iterations                  11   Objective            3.2568200257E-02
+ No. of major iterations             9   Linear    obj. term  0.0000000000E+00
+ Penalty parameter           0.000E+00   Nonlinear obj. term  3.2568200257E-02
+ No. of calls to funobj             13   No. of calls to funcon             13
+ No. of superbasics                  2   No. of basic nonlinears             1
+ No. of degenerate steps             0   Percentage                        .00
+ Max x                       3 1.5E+00   Max pi                      2 1.0E+00
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             2 7.4E-09
+ Nonlinear constraint violn    1.9E-10
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+11 iterations, objective 0.03256820025714448
+Nonlin evals: obj = 13, grad = 12, constrs = 13, Jac = 12.

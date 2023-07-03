@@ -1,0 +1,48 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints      15     Linear constraints       0
+ Nonlinear variables         3     Linear variables         0
+ Jacobian  variables         3     Objective variables      3
+ Total constraints          15     Total variables          3
+ 
+
+ 
+ The user has defined      45   out of      45   constraint gradients.
+ SnOptB  will define        3   gradients for the  FP objective.
+ 
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     0      7               1  1.1E-03  1.2E-03  0.0000000E+00                  r i
+     1      0  6.2E-01      3  4.7E-04  4.6E-04  3.3711863E+01        3.9E+07   r i
+     2      0  5.4E-01      5  2.6E-04  2.1E-04  3.3774640E+01        3.9E+07 s   i
+     3      0  1.0E+00      9  8.0E-05 (8.9E-15) 3.3816463E+06        4.1E+07     i
+ 
+ SNOPTB EXIT  10 -- the problem appears to be infeasible
+ SNOPTB INFO  13 -- nonlinear infeasibilities minimized
+
+ Problem name                 argauss
+ No. of iterations                   7   Objective            0.0000000000E+00
+ No. of major iterations             3   Linear    obj. term  0.0000000000E+00
+ Penalty parameter           4.092E+07   Nonlinear obj. term  5.2113894598E-11
+ Elastic weight                1.0E+10   Elastic   objective  3.3816463134E+06
+                                         Elastic infeas       3.3816463134E-04
+ No. of calls to funobj              0   No. of calls to funcon             10
+ No. of degenerate steps             3   Percentage                      42.86
+ Max x                       2 1.0E+00   Max pi                      1 1.0E+10
+ Max Primal infeas          11 8.0E-05   Max Dual infeas             2 8.9E-05
+ Nonlinear constraint violn    8.0E-05
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Nonlinear infeasibilities minimized.
+7 iterations, objective 0
+Nonlin evals: constrs = 10, Jac = 9.

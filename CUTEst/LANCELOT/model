@@ -1,0 +1,4 @@
+LANCELOT: step got too small.
+32 iterations; objective 5742.163348947254
+M = 32, N = 66, nslacks = 6, NEL = 0, NG = 33
+NFCALL = 33, NGCALL = 33

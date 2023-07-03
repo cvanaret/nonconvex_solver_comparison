@@ -1,0 +1,18 @@
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.14.11, running with linear solver MUMPS 5.5.1.
+
+Number of nonzeros in equality constraint Jacobian...:       45
+Number of nonzeros in inequality constraint Jacobian.:        0
+Number of nonzeros in Lagrangian Hessian.............:        5
+
+Exception of type: TOO_FEW_DOF in file "../../src/Interfaces/IpIpoptApplication.cpp" at line 655:
+ Exception message: status != TOO_FEW_DEGREES_OF_FREEDOM evaluated false: Too few degrees of freedom (rethrown)!
+
+EXIT: Problem has too few degrees of freedom.

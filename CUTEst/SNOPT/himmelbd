@@ -1,0 +1,63 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       2     Linear constraints       0
+ Nonlinear variables         2     Linear variables         0
+ Jacobian  variables         2     Objective variables      2
+ Total constraints           2     Total variables          2
+ 
+
+ 
+ The user has defined       4   out of       4   constraint gradients.
+ SnOptB  will define        2   gradients for the  FP objective.
+ 
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     0      2               1  1.8E+03  1.1E+00  0.0000000E+00                  r
+     1      0  3.7E-01      2  1.2E+03  4.2E-01  4.8823815E+00        3.4E-06   rl
+     2      0  6.1E-02      4  1.1E+03  1.4E-01  9.1480014E+00        9.6E-06 s
+     3      0  1.3E-02      6  1.1E+03  2.3E-01  4.3659337E+02        6.8E-04
+     4      0  3.2E-02      8  1.1E+03  3.0E-01  5.6434824E+02        8.9E-04
+     5      0  4.7E-02     10  1.0E+03  3.1E-01  1.1061368E+03        1.8E-03
+     6      0  5.0E-02     12  1.0E+03  3.0E-01  3.0464570E+03        5.5E-03
+     7      0  4.6E-02     14  9.6E+02  2.9E-01  9.5080785E+03        1.9E-02
+     8      0  4.2E-02     16  9.3E+02  2.7E-01  3.0104008E+04        6.4E-02
+     9      1  3.9E-02     18  9.0E+02  1.0E+00  9.6244765E+04      1 2.2E-01     i
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+    10      1  5.0E-02     20  8.6E+02  1.0E+00  2.1020952E+05      1 5.0E-01     i
+    11      1  9.1E-02     22  7.8E+02  1.0E+00  2.4049933E+05      1 5.9E-01     i
+    12      1  1.0E+00     24  5.8E+00  1.0E+00  2.4371644E+05      1 6.1E-01  M  i
+    13      1  1.0E+00     25  2.4E+00  2.0E-01  2.4336636E+05      1 6.1E-01     i
+    14      1  1.0E+00     26  2.4E+00  4.2E-06  2.4336633E+05      1 6.1E-01     i
+    15      4  1.0E+00     27  2.4E+00 (3.5E-08) 2.4336633E+10      1 6.1E-01     i
+ 
+ SNOPTB EXIT  10 -- the problem appears to be infeasible
+ SNOPTB INFO  13 -- nonlinear infeasibilities minimized
+
+ Problem name                 himmelbd
+ No. of iterations                  12   Objective            0.0000000000E+00
+ No. of major iterations            15   Linear    obj. term  0.0000000000E+00
+ Penalty parameter           6.061E-01   Nonlinear obj. term  5.1471152537E-05
+ Elastic weight                1.0E+10   Elastic   objective  2.4336632907E+10
+                                         Elastic infeas       2.4336632907E+00
+ No. of calls to funobj              0   No. of calls to funcon             28
+ No. of superbasics                  1   No. of basic nonlinears             1
+ No. of degenerate steps             0   Percentage                        .00
+ Max x                       1 2.9E-01   Max pi                      1 1.0E+10
+ Max Primal infeas           3 2.4E+00   Max Dual infeas             1 3.5E+02
+ Nonlinear constraint violn    2.4E+00
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Nonlinear infeasibilities minimized.
+12 iterations, objective 0
+Nonlin evals: constrs = 28, Jac = 27.

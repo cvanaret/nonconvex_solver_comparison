@@ -1,0 +1,34 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       0     Linear constraints      51
+ Nonlinear variables         0     Linear variables        51
+ Jacobian  variables         0     Objective variables      0
+ Total constraints          51     Total variables         51
+ 
+
+ Itn      1: Feasible linear constraints
+ 
+ SQOPT  EXIT   0 -- finished successfully
+ SQOPT  INFO   1 -- optimality conditions satisfied
+
+ Problem name                 goffin
+ No. of iterations                  25   Objective            8.6597395921E-14
+ No. of degenerate steps             0   Percentage                        .00
+ Max x       (scaled)       45 2.5E+01   Max pi      (scaled)       51 1.0E+00
+ Max x                      45 2.5E+01   Max pi                     51 1.0E+00
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)        1 1.3E-14
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             1 1.3E-14
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+25 iterations, objective 8.659739592076221e-14

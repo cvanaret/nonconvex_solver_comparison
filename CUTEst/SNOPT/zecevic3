@@ -1,0 +1,51 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       2     Linear constraints       1
+ Nonlinear variables         2     Linear variables         0
+ Jacobian  variables         2     Objective variables      2
+ Total constraints           3     Total variables          2
+ 
+
+ 
+ The user has defined       4   out of       4   constraint gradients.
+ The user has defined       2   out of       2   objective  gradients.
+ 
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     0      1               1  1.0E+00  1.0E-01  2.9167000E+02      1           r
+     1      2  1.0E-01      2  7.9E-01  1.2E+00  4.2749573E+03      2 1.1E+04   rl
+     2      2  1.0E+00      3 (0.0E+00) 8.0E-01  1.9752928E+02      1 1.0E+02 s
+     3      2  6.2E-01      5  6.0E-01  2.0E-01  9.5607801E+01      1 1.4E+01
+     4      1  1.0E+00      6  3.4E-02  1.2E-02  9.7304330E+01      1 5.5E+00
+     5      1  4.1E-01      8  2.0E-02  5.1E-03  9.7307532E+01      1 5.9E+00
+     6      1  1.0E+00      9  5.0E-05  3.1E-05  9.7309450E+01      1 6.8E+00
+     7      1  1.0E+00     10 (1.8E-09)(3.9E-07) 9.7309450E+01      1 8.5E+00
+ 
+ SNOPTB EXIT   0 -- finished successfully
+ SNOPTB INFO   1 -- optimality conditions satisfied
+
+ Problem name                 zecevic3
+ No. of iterations                  11   Objective            9.7309450102E+01
+ No. of major iterations             7   Linear    obj. term  0.0000000000E+00
+ Penalty parameter           8.491E+00   Nonlinear obj. term  9.7309450102E+01
+ No. of calls to funobj             11   No. of calls to funcon             11
+ No. of superbasics                  1   No. of basic nonlinears             2
+ No. of degenerate steps             0   Percentage                        .00
+ Max x                       1 2.8E+00   Max pi                      2 8.0E+00
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             2 1.7E-05
+ Nonlinear constraint violn    5.0E-09
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+11 iterations, objective 97.30945010206983
+Nonlin evals: obj = 11, grad = 10, constrs = 11, Jac = 10.

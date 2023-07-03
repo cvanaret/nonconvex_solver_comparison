@@ -1,0 +1,45 @@
+outlev=2
+
+ Nonzeros allowed for in LU factors    10219
+
+ Scale option  0,    Partial price   1
+ 
+ Itn      0 -- linear constraints satisfied.
+ funcon  sets       6   out of       6   constraint gradients.
+ funobj  sets       1   out of       1   objective  gradients.
+     1     0T 0.0E+00 -3.00000E+00 0.0E+00 5.0E-01    0      3 1.0E+00     0  
+     2     2  1.0E+00 -3.17100E+00 0.0E+00 5.0E-01    1      9 1.0E+00     0  
+     3     2  1.0E+00 -3.34200E+00 0.0E+00 5.0E-01    1     15 1.0E+00     0  
+     4     2  1.0E+00 -3.51299E+00 0.0E+00 5.0E-01    1     21 1.0E+00     0  
+     5     2  1.0E+00 -3.68399E+00 0.0E+00 5.0E-01    1     27 1.0E+00     0  
+     6     2  1.0E+00 -3.85499E+00 0.0E+00 5.0E-01    1     33 1.0E+00     0  
+     7     1  1.0E+00 -3.99510E+00 0.0E+00 2.9E-01    0     36 1.0E+00     0  
+     8     0  1.0E+00 -3.99999E+00 0.0E+00 7.2E-04    0     37 1.0E+00     0  
+ Completion Full    now requested
+     9     0  1.0E+00 -4.00000E+00 0.0E+00 2.2E-09    0     38 1.0E+00     0  
+ 
+ EXIT -- optimal solution found
+
+ Problem name                         
+ No. of iterations                  11   Objective value     -4.0000000000E+00
+ No. of major iterations             9   Linear objective     2.0000000000E+00
+ Penalty parameter             .100000   Nonlinear objective -6.0000000000E+00
+ No. of calls to funobj             38   No. of calls to funcon             38
+ No. of superbasics                  0   No. of basic nonlinears             1
+ No. of degenerate steps             0   Percentage                        .00
+ Max x                       3 2.0E+00   Max pi                      3 1.0E+00
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             3 4.3E-09
+ Nonlinear constraint violn    0.0E+00
+
+ funcon called with nstate =   2
+
+ funobj called with nstate =   2
+
+ Time for MPS input                            .00 seconds
+ Time for solving problem                      .00 seconds
+ Time for solution output                      .00 seconds
+ Time for constraint functions                 .00 seconds
+ Time for objective function                   .00 seconds
+MINOS 5.51: optimal solution found.
+11 iterations, objective -3.999999999991024
+Nonlin evals: obj = 39, grad = 37, constrs = 39, Jac = 37.

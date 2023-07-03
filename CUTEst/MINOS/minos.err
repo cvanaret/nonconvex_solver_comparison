@@ -1,0 +1,26 @@
+Error evaluating objective function: can't evaluate acos'(1).
+Error evaluating constraint 3: can't evaluate pow'(0,0.8539).
+Error evaluating constraint 1: can't compute 905.932/0.
+Error evaluating constraint 1: can't compute 214377/0.
+/home/leyffer/bin/minos: can't open /homes/leyffer/ampl/models/NLP/cute/nl//fccu.nl
+/home/leyffer/bin/minos: can't open /homes/leyffer/ampl/models/NLP/cute/nl//helix.nl
+/home/leyffer/bin/minos: can't open /homes/leyffer/ampl/models/NLP/cute/nl//himmelba.nl
+/home/leyffer/bin/minos: can't open /homes/leyffer/ampl/models/NLP/cute/nl//himmelbe.nl
+Error evaluating constraint 3: can't evaluate pow'(0,0.8539).
+Error evaluating objective function: can't compute 51.9242/0.
+Error evaluating objective function: can't compute 52.3168/0.
+Error evaluating objective function: can't compute 1/0.
+Error evaluating objective function: can't compute 1/0.
+Error evaluating objective function: can't compute 1/0.
+Error evaluating objective function: can't compute 7.93624/0.
+Error evaluating objective function: can't compute 1/0.
+Error evaluating objective function: can't compute 7.30681/0.
+Error evaluating objective function: can't compute 1/0.
+Error evaluating constraint 3: 
+can't evaluate exp(715.956): Numerical result out of range.
+/home/leyffer/bin/minos: can't open /homes/leyffer/ampl/models/NLP/cute/nl//recipe.nl
+/home/leyffer/bin/minos: can't open /homes/leyffer/ampl/models/NLP/cute/nl//res.nl
+/home/leyffer/bin/minos: can't open /homes/leyffer/ampl/models/NLP/cute/nl//rk23.nl
+Error evaluating "var =" definition 10: 
+can't evaluate exp(760.134): No such file or directory.
+

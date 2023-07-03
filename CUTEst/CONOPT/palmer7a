@@ -1,0 +1,3 @@
+CONOPT 3.17A: Bogus "Termination by solver" (CONOPT bug); objective 27.93169233748879
+32 iterations; evals: nf = 765, ng = 91, nc = 0, nJ = 0, nH = 0, nHv = 39
+1 failed evaluations

@@ -1,0 +1,13 @@
+outlev=2
+
+ Nonzeros allowed for in LU factors    10278
+
+ Scale option  0,    Partial price   1
+ 
+ Itn      0 -- linear E rows feasible.   Obj =   0.000000000E+00
+ Itn      0 -- linear constraints satisfied.
+ funobj  sets       4   out of       4   objective  gradients.
+ Itn      0 -- feasible solution.  Objective =   1.085486043E+04
+MINOS 5.51: solution aborted.
+1 iterations
+Nonlin evals: obj = 8, grad = 6.

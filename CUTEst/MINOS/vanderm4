@@ -1,0 +1,52 @@
+outlev=2
+
+ Nonzeros allowed for in LU factors    10686
+
+ Scale option  0,    Partial price   1
+ 
+ Itn      0 -- linear constraints satisfied.
+ funcon  sets      81   out of      81   constraint gradients.
+     1     0T 0.0E+00  0.00000E+00 1.9E+01 0.0E+00    0      3 1.0E+00     0  
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-02 * (|RHS|  +  8.4E+01)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-01 * (|RHS|  +  8.4E+01)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E+00 * (|RHS|  +  8.4E+01)
+     2     6I 1.0E+00  0.00000E+00 1.9E+01 4.8E-07    1     15 1.0E+00     0  
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-02 * (|RHS|  +  1.1E+02)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-01 * (|RHS|  +  1.1E+02)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E+00 * (|RHS|  +  1.1E+02)
+     3     6I 1.0E+00  0.00000E+00 1.9E+01 1.1E-01    1     23 1.0E+00     1  
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-02 * (|RHS|  +  9.1E+01)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-01 * (|RHS|  +  9.1E+01)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E+00 * (|RHS|  +  9.1E+01)
+     4     5I 1.0E+00  0.00000E+00 1.9E+01 7.1E-03    1     27 1.0E+00     0  
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-02 * (|RHS|  +  9.1E+01)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-01 * (|RHS|  +  9.1E+01)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E+00 * (|RHS|  +  9.1E+01)
+     5     5I 1.0E+00  0.00000E+00 1.9E+01 1.8E-02    1     31 1.0E+00     0  
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-02 * (|RHS|  +  9.0E+01)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-01 * (|RHS|  +  9.0E+01)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E+00 * (|RHS|  +  9.0E+01)
+     6     5I 1.0E+00  0.00000E+00 1.9E+01 5.1E-02    1     35 1.0E+00     0  
+ 
+ EXIT -- the problem is infeasible
+
+ Problem name                         
+ No. of iterations                  28   Objective value      0.0000000000E+00
+ No. of infeasibilities              8   Sum of infeas        8.9732422966E+01
+ No. of major iterations             7   Linear objective     0.0000000000E+00
+ Penalty parameter            1.000000   Nonlinear objective  0.0000000000E+00
+ No. of calls to funobj              0   No. of calls to funcon             35
+ No. of superbasics                  0   No. of basic nonlinears             9
+ No. of degenerate steps             1   Percentage                       3.57
+ Max x                       1 8.4E-01   Max pi                      7 5.1E+00
+ Max Primal infeas          10 3.1E+01   Max Dual infeas             7 1.2E-14
+ Nonlinear constraint violn    3.6E+01
+
+ Time for MPS input                            .00 seconds
+ Time for solving problem                      .00 seconds
+ Time for solution output                      .00 seconds
+ Time for constraint functions                 .00 seconds
+ Time for objective function                   .00 seconds
+MINOS 5.51: infeasible problem (or bad starting guess).
+28 iterations
+Nonlin evals: constrs = 35, Jac = 34.

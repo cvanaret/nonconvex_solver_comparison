@@ -1,0 +1,48 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       2     Linear constraints       1
+ Nonlinear variables         2     Linear variables         0
+ Jacobian  variables         2     Objective variables      2
+ Total constraints           3     Total variables          2
+ 
+
+ 
+ The user has defined       4   out of       4   constraint gradients.
+ The user has defined       2   out of       2   objective  gradients.
+ 
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     0      2               1 (0.0E+00) 6.1E-01 -7.9136864E+00      2           r
+     1      1  1.0E+00      2 (0.0E+00) 5.8E-01 -8.2500023E+00      2           r
+     2      2  9.3E-01      3 (0.0E+00) 5.5E-01 -9.2228275E+00      1         s  l
+     3      1  1.0E+00      5 (0.0E+00) 1.1E+00 -4.3888699E+01      1          m
+     4      1  1.0E+00      6 (0.0E+00) 1.2E+00 -4.6390943E+01
+     5      0  1.0E+00      7 (0.0E+00)(0.0E+00)-5.9013124E+01
+ 
+ SNOPTB EXIT   0 -- finished successfully
+ SNOPTB INFO   1 -- optimality conditions satisfied
+
+ Problem name                 himmelp3
+ No. of iterations                   7   Objective           -5.9013123509E+01
+ No. of major iterations             5   Linear    obj. term  0.0000000000E+00
+ Penalty parameter           0.000E+00   Nonlinear obj. term -5.9013123509E+01
+ No. of calls to funobj              8   No. of calls to funcon              8
+ No. of degenerate steps             0   Percentage                        .00
+ Max x                       1 7.5E+01   Max pi                      3 1.0E+00
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             0 0.0E+00
+ Nonlinear constraint violn    0.0E+00
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+7 iterations, objective -59.01312350903464
+Nonlin evals: obj = 8, grad = 7, constrs = 8, Jac = 7.

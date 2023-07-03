@@ -1,0 +1,54 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       6     Linear constraints       6
+ Nonlinear variables         9     Linear variables         1
+ Jacobian  variables         9     Objective variables      2
+ Total constraints          12     Total variables         10
+ 
+
+ 
+ The user has defined      20   out of      20   constraint gradients.
+ The user has defined       2   out of       2   objective  gradients.
+ 
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     0     11               1  8.6E-02  6.5E-01 -8.7449574E+02      2           r i
+     1      1  2.0E-03      2  8.6E-02  6.5E-01  7.4953491E+08      2 1.4E+03   rli
+     2      6  2.0E-03      3  8.6E-02  8.4E-01  7.4951653E+08      1 1.4E+03 s  li
+     3      1  1.0E+00      4  1.4E-02  5.3E-01  6.3832888E+08      1 1.4E+03     i
+     4      1  1.0E+00      5  3.5E-03  5.3E-01  6.1683554E+08      1 2.5E+02     i
+     5      1  1.0E+00      6  3.5E-03  4.9E-02  6.1682995E+08      1 2.3E+01     i
+     6      1  1.0E+00      7  3.5E-03  3.8E-04  6.1682982E+08      1 7.6E+00     i
+     7      1  1.0E+00      8  3.5E-03 (1.8E-11) 6.1682929E+13        7.6E+00 s   i
+ 
+ SNOPTB EXIT  10 -- the problem appears to be infeasible
+ SNOPTB INFO  13 -- nonlinear infeasibilities minimized
+
+ Problem name                 hs114
+ No. of iterations                  25   Objective            5.3213877099E+02
+ No. of major iterations             7   Linear    obj. term  9.7595845759E+03
+ Penalty parameter           7.631E+00   Nonlinear obj. term -9.2274458050E+03
+ Elastic weight                1.4E+12   Elastic   objective  6.1682928696E+13
+                                         Elastic infeas       4.3768000000E+01
+ No. of calls to funobj              9   No. of calls to funcon              9
+ No. of degenerate steps             0   Percentage                        .00
+ Max x       (scaled)        4 1.2E+04   Max pi      (scaled)        8 2.7E+12
+ Max x                       4 1.2E+04   Max pi                      2 1.4E+12
+ Max Prim inf(scaled)       12 4.4E+01   Max Dual inf(scaled)        2 4.8E+01
+ Max Primal infeas          12 4.4E+01   Max Dual infeas             2 4.8E+01
+ Nonlinear constraint violn    4.4E+01
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Nonlinear infeasibilities minimized.
+25 iterations, objective 532.1387709918508
+Nonlin evals: obj = 9, grad = 8, constrs = 9, Jac = 8.

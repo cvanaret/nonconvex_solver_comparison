@@ -1,0 +1,35 @@
+outlev=2
+
+ Nonzeros allowed for in LU factors    10219
+
+ Scale option  0,    Partial price   1
+ 
+ Itn      0 -- linear constraints satisfied.
+ funcon  sets       3   out of       3   constraint gradients.
+     1     0T 0.0E+00  0.00000E+00 3.3E-02 0.0E+00    0      3 1.0E+00     0  
+     2     0  1.0E+00  0.00000E+00 3.7E-18 0.0E+00    0      4 1.0E+00     0  
+ Completion Full    now requested
+ 
+ EXIT -- optimal solution found
+
+ Problem name                         
+ No. of iterations                   0   Objective value      0.0000000000E+00
+ No. of major iterations             2   Linear objective     0.0000000000E+00
+ Penalty parameter            1.000000   Nonlinear objective  0.0000000000E+00
+ No. of calls to funobj              0   No. of calls to funcon              4
+ No. of superbasics                  0   No. of basic nonlinears             3
+ No. of degenerate steps             0   Percentage                        .00
+ Max x                       1 5.0E+00   Max pi                      1 0.0E+00
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             0 0.0E+00
+ Nonlinear constraint violn    2.2E-17
+
+ funcon called with nstate =   2
+
+ Time for MPS input                            .00 seconds
+ Time for solving problem                      .00 seconds
+ Time for solution output                      .00 seconds
+ Time for constraint functions                 .00 seconds
+ Time for objective function                   .00 seconds
+MINOS 5.51: optimal solution found.
+0 iterations, objective 0
+Nonlin evals: constrs = 5, Jac = 3.

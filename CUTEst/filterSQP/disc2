@@ -1,0 +1,3 @@
+filterSQP (20020316): Nonlinear constraints locally infeasible
+126 iterations (110 for feasibility)
+Evals: obj = 25, constr = 183, grad = 78, Hes = 121

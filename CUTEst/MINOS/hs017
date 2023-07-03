@@ -1,0 +1,43 @@
+outlev=2
+
+ Nonzeros allowed for in LU factors    10150
+
+ Scale option  0,    Partial price   1
+ 
+ Itn      0 -- linear constraints satisfied.
+ funcon  sets       4   out of       4   constraint gradients.
+ funobj  sets       2   out of       2   objective  gradients.
+     1     0T 0.0E+00  5.85000E+01 3.6E-01 7.5E+01    0      3 1.0E+00     0  
+     2     1  1.0E+00  2.25000E+00 0.0E+00 9.8E-01    0      4 1.0E+00     0  
+     3     1  1.0E+00  3.24316E+00 0.0E+00 1.8E-01    0      6 1.0E+00     0  
+     4     0  1.0E+00  1.04117E+00 0.0E+00 3.5E-01    0      7 1.0E+00     0  
+     5     0  1.0E+00  1.00031E+00 0.0E+00 6.2E-02    0      8 1.0E+00     0  
+ Completion Full    now requested
+     6     0  1.0E+00  1.00000E+00 0.0E+00 1.1E-05    0      9 1.0E+00     0  
+     7     0  1.0E+00  1.00000E+00 0.0E+00 1.0E-12    0     10 1.0E-01     0  
+ 
+ EXIT -- optimal solution found
+
+ Problem name                         
+ No. of iterations                   2   Objective value      1.0000000000E+00
+ No. of major iterations             7   Linear objective     0.0000000000E+00
+ Penalty parameter             .010000   Nonlinear objective  1.0000000000E+00
+ No. of calls to funobj             11   No. of calls to funcon             10
+ No. of superbasics                  0   No. of basic nonlinears             2
+ No. of degenerate steps             0   Percentage                        .00
+ Max x                       1 5.4E-16   Max pi                      1 2.0E+00
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             2 3.1E-12
+ Nonlinear constraint violn    0.0E+00
+
+ funcon called with nstate =   2
+
+ funobj called with nstate =   2
+
+ Time for MPS input                            .00 seconds
+ Time for solving problem                      .00 seconds
+ Time for solution output                      .00 seconds
+ Time for constraint functions                 .00 seconds
+ Time for objective function                   .00 seconds
+MINOS 5.51: optimal solution found.
+2 iterations, objective 1.0000000000000009
+Nonlin evals: obj = 12, grad = 9, constrs = 11, Jac = 9.

@@ -1,0 +1,26 @@
+outlev=2
+
+ Nonzeros allowed for in LU factors    10155
+
+ Scale option  2,    Partial price   1
+ 
+ Itn      0 -- linear E rows feasible.   Obj =   2.500000000E-01
+ Itn      1 -- feasible solution.  Objective =   1.100000000E+00
+ 
+ EXIT -- optimal solution found
+
+ Problem name                         
+ No. of iterations                   1   Objective value      1.1000000000E+00
+ No. of degenerate steps             0   Percentage                        .00
+ Max x       (scaled)        2 8.0E-01   Max pi      (scaled)        4 1.5E+00
+ Max x                       2 8.0E-01   Max pi                      4 1.0E+00
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)        0 0.0E+00
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             0 0.0E+00
+
+ Time for MPS input                            .00 seconds
+ Time for solving problem                      .00 seconds
+ Time for solution output                      .00 seconds
+ Time for constraint functions                 .00 seconds
+ Time for objective function                   .00 seconds
+MINOS 5.51: optimal solution found.
+1 iterations, objective 1.0999999999999999

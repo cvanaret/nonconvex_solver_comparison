@@ -1,0 +1,184 @@
+Options:
+- BQPD_kmax = 500
+- BQPD_print_subproblem = no
+- LP_solver = BQPD
+- LS_backtracking_ratio = 0.5
+- LS_min_step_length = 1e-12
+- LS_scale_duals_with_step_length = no
+- QP_solver = BQPD
+- TR_activity_tolerance = 1e-6
+- TR_aggressive_decrease_factor = 4
+- TR_decrease_factor = 2
+- TR_increase_factor = 2
+- TR_min_radius = 1e-7
+- TR_radius = 10.
+- TR_radius_reset_threshold = 1e-4
+- armijo_decrease_fraction = 1e-8
+- armijo_tolerance = 1e-9
+- barrier_damping_factor = 1e-5
+- barrier_default_multiplier = 1
+- barrier_initial_parameter = 0.1
+- barrier_k_epsilon = 10
+- barrier_k_mu = 0.2
+- barrier_k_sigma = 1e10
+- barrier_push_variable_to_interior_k1 = 1e-2
+- barrier_push_variable_to_interior_k2 = 1e-2
+- barrier_regularization_exponent = 0.25
+- barrier_small_direction_factor = 10.
+- barrier_smax = 100
+- barrier_tau_min = 0.99
+- barrier_theta_mu = 1.5
+- barrier_update_fraction = 10
+- constraint_relaxation_strategy = l1_relaxation
+- convexify_QP = false
+- dual_regularization_fraction = 1e-8
+- enforce_linear_constraints = no
+- feasibility_restoration_test_linearized_feasibility = no
+- filter_beta = 0.999
+- filter_capacity = 50
+- filter_delta = 0.999
+- filter_fact = 1.25
+- filter_gamma = 0.001
+- filter_switching_infeasibility_exponent = 2
+- filter_type = standard
+- filter_ubd = 1e2
+- function_scaling_factor = 100
+- function_scaling_threshold = 100
+- globalization_mechanism = LS
+- globalization_strategy = l1_merit
+- hessian_model = exact
+- l1_constraint_violation_coefficient = 1.
+- l1_relaxation_decrease_factor = 10.
+- l1_relaxation_epsilon1 = 0.1
+- l1_relaxation_epsilon2 = 0.1
+- l1_relaxation_fixed_parameter = no
+- l1_relaxation_initial_parameter = 1
+- l1_relaxation_residual_small_threshold = 1e-12
+- l1_small_duals_threshold = 1e-10
+- least_square_multiplier_max_norm = 1e3
+- linear_solver = MA57
+- logger = INFO
+- max_iterations = 4000
+- nonmonotone_filter_number_dominated_entries = 3
+- primal_regularization_decrease_factor = 3.
+- primal_regularization_fast_increase_factor = 100.
+- primal_regularization_initial_factor = 1e-4
+- primal_regularization_lb = 1e-20
+- primal_regularization_slow_increase_factor = 8.
+- print_solution = no
+- progress_norm = L1
+- regularization_failure_threshold = 1e40
+- regularization_increase_factor = 2
+- regularization_initial_value = 1e-4
+- residual_norm = L1
+- residual_scaling_threshold = 100.
+- scale_functions = no
+- scale_residuals = yes
+- sparse_format = CSC
+- statistics_LS_step_length_column_order = 30
+- statistics_SOC_column_order = 9
+- statistics_TR_radius_column_order = 30
+- statistics_barrier_parameter_column_order = 8
+- statistics_complementarity_column_order = 104
+- statistics_dual_infeasibility_column_order = 102
+- statistics_major_column_order = 1
+- statistics_minor_column_order = 2
+- statistics_objective_column_order = 100
+- statistics_penalty_parameter_column_order = 5
+- statistics_primal_infeasibility_column_order = 101
+- statistics_print_header_every_iterations = 15
+- statistics_regularization_column_order = 6
+- statistics_restoration_phase_column_order = 4
+- statistics_stationarity_column_order = 105
+- statistics_step_norm_column_order = 31
+- subproblem = QP
+- threshold_unsuccessful_attempts = 8
+- time_limit = inf
+- tolerance = 1e-6
+- unbounded_objective_threshold = -1e20
+
+Problem /media/data/AMPL/CUTEst/errinros
+50 variables, 0 constraints
+
+┌───────┬──────────┬─────────────────┬─────────────────┬─────────────────┬─────────────────┬─────────────────┬─────────────────┬─────────────────┐
+│ iters │ LS iters │ penalty param.  │ regularization  │ LS step length  │ step norm       │ objective       │ complementarity │ stationarity    │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 1     │ 1        │ 1               │ 0               │ 1               │ 31.33371        │ 21651.14        │ 0               │ 128137.6        │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 2     │ 4        │ 1               │ 0               │ 0.125           │ 66.34478        │ 19559.56        │ 0               │ 113103.6        │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 3     │ 1        │ 1               │ 0               │ 1               │ 36.30924        │ 3660.835        │ 0               │ 33445.37        │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 4     │ 4        │ 1               │ 0               │ 0.125           │ 3.524352        │ 3198.428        │ 0               │ 30267.62        │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 5     │ 1        │ 1               │ 0               │ 1               │ 10.71403        │ 657.1631        │ 0               │ 8733.896        │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 6     │ 3        │ 1               │ 0               │ 0.25            │ 17.37018        │ 505.4192        │ 0               │ 7422.537        │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 7     │ 1        │ 1               │ 0               │ 1               │ 5.49202         │ 137.5104        │ 0               │ 2010.627        │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 8     │ 1        │ 1               │ 0               │ 1               │ 21.09849        │ 76.62023        │ 0               │ 1139.244        │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 9     │ 1        │ 1               │ 0               │ 1               │ 2.803542        │ 52.72471        │ 0               │ 231.4416        │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 10    │ 2        │ 1               │ 0               │ 0.5             │ 18.8459         │ 50.08567        │ 0               │ 379.4676        │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 11    │ 1        │ 1               │ 39.22471        │ 1               │ 0.1417903       │ 44.39122        │ 0               │ 85.84636        │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 12    │ 1        │ 1               │ 32.60811        │ 1               │ 0.09987135      │ 42.15797        │ 0               │ 41.0522         │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 13    │ 1        │ 1               │ 55.04127        │ 1               │ 0.1047935       │ 40.93557        │ 0               │ 26.33279        │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 14    │ 1        │ 1               │ 65.9127         │ 1               │ 0.06581221      │ 40.62813        │ 0               │ 20.22407        │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 15    │ 1        │ 1               │ 97.74965        │ 1               │ 0.05565855      │ 40.61695        │ 0               │ 22.50136        │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ iters │ LS iters │ penalty param.  │ regularization  │ LS step length  │ step norm       │ objective       │ complementarity │ stationarity    │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 16    │ 3        │ 1               │ 0               │ 0.25            │ 5.457608        │ 40.56021        │ 0               │ 41.41135        │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 17    │ 1        │ 1               │ 0               │ 1               │ 0.7448331       │ 40.43325        │ 0               │ 3.688568        │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 18    │ 2        │ 1               │ 0               │ 0.5             │ 3.713717        │ 40.42511        │ 0               │ 14.34936        │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 19    │ 1        │ 1               │ 0               │ 1               │ 0.7344224       │ 40.4112         │ 0               │ 0.9520207       │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 20    │ 2        │ 1               │ 0               │ 0.5             │ 1.946466        │ 40.40819        │ 0               │ 4.212977        │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 21    │ 1        │ 1               │ 0               │ 1               │ 0.9942404       │ 40.40579        │ 0               │ 1.1509          │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 22    │ 1        │ 1               │ 0               │ 1               │ 1.350914        │ 40.40491        │ 0               │ 1.944243        │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 23    │ 1        │ 1               │ 0               │ 1               │ 0.3585768       │ 40.40454        │ 0               │ 0.1646029       │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 24    │ 1        │ 1               │ 0               │ 1               │ 0.3585257       │ 40.40449        │ 0               │ 0.1420042       │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 25    │ 1        │ 1               │ 0               │ 1               │ 0.02655064      │ 40.40449        │ 0               │ 0.0009211498    │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 26    │ 1        │ 1               │ 0               │ 1               │ 0.002155841     │ 40.40449        │ 0               │ 5.201741e-06    │
+├───────┼──────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 27    │ 1        │ 1               │ 0               │ 1               │ 9.764719e-07    │ 40.40449        │ 0               │ 3.753553e-12    │
+└───────┴──────────┴─────────────────┴─────────────────┴─────────────────┴─────────────────┴─────────────────┴─────────────────┴─────────────────┘
+
+Uno (LS l1_relaxation l1_merit QP)
+Thu May 25 18:25:11 2023
+────────────────────────────────────────
+Status:					Converged with feasible KKT point
+Objective value:			40.40449
+┌ Optimality stationarity residual:	3.753553e-12
+│ Feasibility stationarity residual:	0
+│ Constraint violation:			0
+│ Optimality complementarity residual:	0
+└ Feasibility complementarity residual:	0
+┌ Infeasibility measure:		0
+│ Optimality measure:			40.40449
+└ Auxiliary measure:			0
+CPU time:				0.012204s
+Iterations:				27
+Objective evaluations:			41
+Constraints evaluations:		41
+Objective gradient evaluations:		28
+Jacobian evaluations:			28
+Hessian evaluations:			27
+Number of subproblems solved:		27
+memory_allocation_amount = 0

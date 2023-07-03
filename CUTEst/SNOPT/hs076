@@ -1,0 +1,37 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       0     Linear constraints       4
+ Nonlinear variables         4     Linear variables         0
+ Jacobian  variables         0     Objective variables      4
+ Total constraints           4     Total variables          4
+ 
+
+ Itn      0: Feasible linear constraints
+ 
+ SQOPT  EXIT   0 -- finished successfully
+ SQOPT  INFO   1 -- optimality conditions satisfied
+
+ Problem name                 hs076
+ No. of iterations                   4   Objective           -4.6818181818E+00
+ No. of Hessian products             9   Linear    objective -7.0909090909E+00
+                                         Quadratic objective  2.4090909091E+00
+ No. of superbasics                  2   No. of basic nonlinears             1
+ No. of degenerate steps             0   Percentage                        .00
+ Max x       (scaled)        2 1.8E+00   Max pi      (scaled)        4 1.0E+00
+ Max x                       2 2.1E+00   Max pi                      4 1.0E+00
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)        4 2.2E-16
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             4 1.4E-16
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+4 iterations, objective -4.681818181818182

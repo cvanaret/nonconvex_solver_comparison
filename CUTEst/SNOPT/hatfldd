@@ -1,0 +1,74 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       0     Linear constraints       1
+ Nonlinear variables         3     Linear variables         0
+ Jacobian  variables         0     Objective variables      3
+ Total constraints           1     Total variables          3
+ 
+
+ 
+ The user has defined       3   out of       3   objective  gradients.
+ 
+
+ Major Minors     Step   nObj Feasible  Optimal      Objective     nS
+     0      3               1           6.9E-01  2.5243032E+01      3   r
+     1      1  1.0E+00      2           7.6E-01  5.3214573E+00      3   r
+     2      1  3.4E-01      4           1.1E+00  9.9245233E-01      3 s
+     3      1  1.0E+00      5           1.2E+00  8.8058093E-01      3
+     4      1  1.0E+00      6           1.1E+00  5.6667187E-01      3
+     5      1  1.0E+00      7           7.5E-01  2.2073888E-01      3
+     6      1  1.0E+00      8           8.0E-01  8.6126131E-02      3
+     7      1  1.0E+00      9           1.9E-01  3.0650527E-03      3
+     8      1  1.0E+00     10           1.3E-02  7.3098346E-05      3
+     9      1  1.0E+00     11           1.9E-03  1.9005923E-06      3
+
+ Major Minors     Step   nObj Feasible  Optimal      Objective     nS
+    10      1  1.0E+00     12           1.0E-04  1.5173003E-06      3
+    11      1  1.0E+00     13           4.6E-05  1.5168374E-06      3
+    12      1  1.0E+00     14           3.9E-05  1.5167224E-06      3
+    13      1  1.0E+00     15           1.3E-04  1.5158016E-06      3
+    14      1  1.0E+00     16           2.6E-04  1.5139949E-06      3
+    15      1  1.0E+00     17           4.8E-04  1.5086722E-06      3
+    16      1  1.0E+00     18           8.2E-04  1.4954587E-06      3
+    17      1  1.0E+00     19           1.4E-03  1.4611847E-06      3
+    18      1  1.0E+00     20           2.2E-03  1.3790275E-06      3
+    19      1  1.0E+00     21           3.2E-03  1.2078315E-06      3
+
+ Major Minors     Step   nObj Feasible  Optimal      Objective     nS
+    20      1  1.0E+00     22           3.9E-03  9.2886060E-07      3
+    21      1  1.0E+00     23           3.4E-03  5.1894658E-07      3
+    22      1  1.0E+00     24           1.1E-03  1.1809282E-07      3
+    23      1  1.0E+00     25           8.8E-05  6.8132617E-08      3
+    24      1  1.0E+00     26           1.8E-05  6.6176411E-08      3
+    25      1  1.0E+00     27           2.8E-06  6.6151417E-08      3
+    26      1  1.0E+00     28          (7.7E-09) 6.6151140E-08      3
+ 
+ SNOPTB EXIT   0 -- finished successfully
+ SNOPTB INFO   1 -- optimality conditions satisfied
+
+ Problem name                 hatfldd
+ No. of iterations                  29   Objective            6.6151139551E-08
+ No. of major iterations            26   Linear    obj. term  0.0000000000E+00
+                                         Nonlinear obj. term  6.6151139551E-08
+ No. of calls to funobj             29   No. of calls to funcon              0
+ No. of superbasics                  3   No. of basic nonlinears             0
+ No. of degenerate steps             0   Percentage                        .00
+ Max x       (scaled)        1 3.2E+00   Max pi      (scaled)        1 1.0E+00
+ Max x                       1 3.2E+00   Max pi                      1 1.0E+00
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)        1 7.7E-09
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             1 7.7E-09
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+29 iterations, objective 6.615113955053337e-08
+Nonlin evals: obj = 29, grad = 28.

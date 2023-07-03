@@ -1,0 +1,36 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       0     Linear constraints       8
+ Nonlinear variables         6     Linear variables         6
+ Jacobian  variables         0     Objective variables      6
+ Total constraints           8     Total variables         12
+ 
+
+ Itn      5: Feasible linear constraints
+ 
+ SQOPT  EXIT   0 -- finished successfully
+ SQOPT  INFO   1 -- optimality conditions satisfied
+
+ Problem name                 lotschd
+ No. of iterations                   8   Objective            2.3984158385E+03
+ No. of Hessian products             6   Linear    objective  0.0000000000E+00
+                                         Quadratic objective  2.3984158385E+03
+ No. of degenerate steps             0   Percentage                        .00
+ Max x       (scaled)        3 2.6E-01   Max pi      (scaled)        1 6.4E+03
+ Max x                       3 2.7E+01   Max pi                      7 3.0E+01
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)        1 1.8E-12
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             3 1.3E-14
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+8 iterations, objective 2398.4158385317387

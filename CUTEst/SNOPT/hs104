@@ -1,0 +1,70 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       6     Linear constraints       1
+ Nonlinear variables         8     Linear variables         0
+ Jacobian  variables         8     Objective variables      4
+ Total constraints           7     Total variables          8
+ 
+
+ 
+ The user has defined      21   out of      21   constraint gradients.
+ The user has defined       4   out of       4   objective  gradients.
+ 
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     0      7               1  6.9E-02  5.9E-02  3.6573657E+00      4           r
+     1      1  2.7E-01      3  5.2E-02  2.5E-02  4.1301070E+00      4 5.6E+00   r
+     2      2  4.3E-01      5  3.4E-02  2.4E-02  4.0933636E+00      5 5.6E+00 s
+     3      4  1.0E+00      6  1.7E-02  3.6E-02  3.9488032E+00      4 5.6E+00
+     4      2  5.5E-01      8  8.8E-03  1.9E-01  4.0581610E+00      5 2.8E+01
+     5      4  1.0E+00      9  1.8E-02  2.4E-02  3.9392481E+00      4 6.1E+00
+     6      1  3.9E-01     11  1.2E-02  1.7E-02  3.9573109E+00      4 9.5E+00
+     7      1  2.5E-01     13  9.7E-03  1.2E-02  3.9744907E+00      4 1.6E+01
+     8      1  1.0E+00     14  5.7E-04  1.8E-02  3.9678539E+00      4 2.0E+01
+     9      1  1.0E+00     15  7.3E-04  5.0E-03  3.9635526E+00      4 9.7E+00
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+    10      1  1.0E+00     16  1.1E-05  1.0E-02  3.9629630E+00      4 9.7E+00
+    11      1  1.0E+00     17  4.0E-05  4.0E-03  3.9610886E+00      4 9.7E+00
+    12      1  1.0E+00     18  1.4E-05  6.6E-03  3.9597294E+00      4 9.7E+00
+    13      1  1.0E+00     19  8.3E-05  5.4E-03  3.9559896E+00      4 9.7E+00
+    14      1  1.0E+00     20  1.4E-05  6.1E-03  3.9538402E+00      4 9.7E+00
+    15      1  1.0E+00     21  2.0E-05  4.5E-03  3.9520258E+00      4 9.7E+00
+    16      1  1.0E+00     22  4.9E-05  4.1E-03  3.9513359E+00      4 9.7E+00
+    17      1  1.0E+00     23  1.2E-05  3.3E-03  3.9511902E+00      4 9.7E+00
+    18      1  1.0E+00     24  1.3E-06  8.6E-04  3.9511648E+00      4 9.7E+00
+    19      1  1.0E+00     25 (2.2E-08) 9.3E-05  3.9511635E+00      4 9.7E+00
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+    20      1  1.0E+00     26 (9.2E-10) 2.7E-05  3.9511635E+00      4 9.7E+00
+    21      1  1.0E+00     27 (8.8E-10) 5.7E-06  3.9511634E+00      4 9.7E+00
+    22      1  1.0E+00     28 (5.7E-11)(1.4E-06) 3.9511634E+00      4 9.7E+00
+ 
+ SNOPTB EXIT   0 -- finished successfully
+ SNOPTB INFO   1 -- optimality conditions satisfied
+
+ Problem name                 hs104
+ No. of iterations                  37   Objective            3.9511634395E+00
+ No. of major iterations            22   Linear    obj. term  0.0000000000E+00
+ Penalty parameter           9.662E+00   Nonlinear obj. term  3.9511634395E+00
+ No. of calls to funobj             29   No. of calls to funcon             29
+ No. of superbasics                  4   No. of basic nonlinears             4
+ No. of degenerate steps             0   Percentage                        .00
+ Max x                       1 6.5E+00   Max pi                      2 6.2E+00
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             4 1.5E-05
+ Nonlinear constraint violn    3.7E-10
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+37 iterations, objective 3.9511634395273685
+Nonlin evals: obj = 29, grad = 28, constrs = 29, Jac = 28.

@@ -1,0 +1,37 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       0     Linear constraints       9
+ Nonlinear variables        19     Linear variables         0
+ Jacobian  variables         0     Objective variables     19
+ Total constraints           9     Total variables         19
+ 
+
+ Itn      8: Feasible linear constraints
+ 
+ SQOPT  EXIT   0 -- finished successfully
+ SQOPT  INFO   1 -- optimality conditions satisfied
+
+ Problem name                 fccu
+ No. of iterations                  19   Objective            1.1149109141E+01
+ No. of Hessian products            23   Linear    objective -8.0586917860E+03
+                                         Quadratic objective  8.0698408951E+03
+ No. of superbasics                 11   No. of basic nonlinears             8
+ No. of degenerate steps             1   Percentage                       5.26
+ Max x       (scaled)        2 3.5E+01   Max pi      (scaled)        8 3.7E+00
+ Max x                       2 3.5E+01   Max pi                      8 3.7E+00
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)       16 3.6E-14
+ Max Primal infeas           0 0.0E+00   Max Dual infeas            16 3.6E-14
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+19 iterations, objective 11.149109141480949

@@ -1,0 +1,13 @@
+outlev=2
+
+ Nonzeros allowed for in LU factors    10363
+
+ Scale option  1,    Partial price   1
+ 
+ Itn      0 -- linear constraints satisfied.
+ funcon  sets      10   out of      10   constraint gradients.
+     1     0T 0.0E+00 -5.00000E-01 9.8E-01 5.0E-01    0      3 1.0E+00     0  
+     2     4  1.6E-01 -4.82521E+00 5.6E-01 9.3E-01    1      7 1.0E+00     0  
+MINOS 5.51: solution aborted.
+7 iterations
+Nonlin evals: constrs = 11, Jac = 10.

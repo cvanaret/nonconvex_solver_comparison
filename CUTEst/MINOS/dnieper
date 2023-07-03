@@ -1,0 +1,42 @@
+outlev=2
+
+ Nonzeros allowed for in LU factors    13984
+
+ Scale option  1,    Partial price   1
+ 
+ Itn      0 -- linear constraints satisfied.
+ funcon  sets     104   out of     104   constraint gradients.
+ funobj  sets      49   out of      49   objective  gradients.
+     1     0T 0.0E+00 -8.91019E+02 7.9E-02 1.0E+01    0      3 1.0E+00     0  
+     2    39  1.0E+00  1.85340E+04 2.8E-04 5.8E-04    0     33 1.0E+00     0  
+ Completion Full    now requested
+     3     0  1.0E+00  1.87440E+04 1.7E-08 2.1E-08    0     34 1.0E+00     0  
+     4     0  1.0E+00  1.87440E+04 5.0E-16 8.6E-15    0     35 1.0E-01     0  
+ 
+ EXIT -- optimal solution found
+
+ Problem name                         
+ No. of iterations                  39   Objective value      1.8744014609E+04
+ No. of major iterations             4   Linear objective     0.0000000000E+00
+ Penalty parameter             .010000   Nonlinear objective  1.8744014609E+04
+ No. of calls to funobj             36   No. of calls to funcon             35
+ No. of superbasics                  0   No. of basic nonlinears            20
+ No. of degenerate steps             0   Percentage                        .00
+ Max x       (scaled)       25 5.1E+01   Max pi      (scaled)       12 1.0E+03
+ Max x                      25 5.1E+01   Max pi                     12 1.0E+03
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)        4 9.5E-12
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             4 9.5E-12
+ Nonlinear constraint violn    9.7E-14
+
+ funcon called with nstate =   2
+
+ funobj called with nstate =   2
+
+ Time for MPS input                            .00 seconds
+ Time for solving problem                      .00 seconds
+ Time for solution output                      .00 seconds
+ Time for constraint functions                 .00 seconds
+ Time for objective function                   .00 seconds
+MINOS 5.51: optimal solution found.
+39 iterations, objective 18744.01460850286
+Nonlin evals: obj = 37, grad = 34, constrs = 36, Jac = 34.

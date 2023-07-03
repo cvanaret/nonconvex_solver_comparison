@@ -1,0 +1,21 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       0     Linear constraints       1
+ Nonlinear variables        50     Linear variables         0
+ Jacobian  variables         0     Objective variables     50
+ Total constraints           1     Total variables         50
+ 
+
+ 
+ The user has defined      50   out of      50   objective  gradients.
+ 
+
+ Major Minors     Step   nObj Feasible  Optimal      Objective     nS
+     0     50               1           1.3E+00  1.3948362E-02     44   r
+SNOPT 7.5-1.2 : Bug: "scream" called.
+4294956185 iterations
+Nonlin evals: obj = 3, grad = 2.

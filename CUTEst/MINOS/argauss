@@ -1,0 +1,45 @@
+outlev=2
+
+ Nonzeros allowed for in LU factors    10270
+
+ Scale option  0,    Partial price   1
+ 
+ Itn      0 -- linear constraints satisfied.
+ funcon  sets      45   out of      45   constraint gradients.
+     1     0T 0.0E+00  0.00000E+00 5.5E-04 0.0E+00    0      3 1.0E+00     0  
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-02 * (|RHS|  +  7.8E-04)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-01 * (|RHS|  +  7.8E-04)
+     2     7I 1.0E+00  0.00000E+00 2.0E-03 5.3E-08    2     10 1.0E+00     0  
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-02 * (|RHS|  +  4.5E-04)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-01 * (|RHS|  +  4.5E-04)
+     3     5I 1.0E+00  0.00000E+00 2.0E-03 3.7E-08    0     11 1.0E+00     2  
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-02 * (|RHS|  +  1.8E-03)
+     4     3I 1.0E+00  0.00000E+00 1.1E-04 8.4E-08    0     13 1.0E+00     0  
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-02 * (|RHS|  +  1.8E-03)
+     5     2I 1.0E+00  0.00000E+00 1.7E-04 4.7E-10    0     14 1.0E+00     0  
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-02 * (|RHS|  +  8.4E-03)
+     6     2I 1.0E+00  0.00000E+00 3.1E-04 1.3E-08    0     18 1.0E+00     0  
+ 
+ EXIT -- the problem is infeasible
+
+ Problem name                         
+ No. of iterations                  19   Objective value      0.0000000000E+00
+ No. of infeasibilities             12   Sum of infeas        7.6403581825E-04
+ No. of major iterations             6   Linear objective     0.0000000000E+00
+ Penalty parameter            1.000000   Nonlinear objective  0.0000000000E+00
+ No. of calls to funobj              0   No. of calls to funcon             18
+ No. of superbasics                  0   No. of basic nonlinears             3
+ No. of degenerate steps             0   Percentage                        .00
+ Max x                       2 1.0E+00   Max pi                      3 7.3E+00
+ Max Primal infeas          13 1.1E-04   Max Dual infeas             1 1.8E-16
+ Nonlinear constraint violn    6.3E-04
+
+ Time for MPS input                            .00 seconds
+ Time for solving problem                      .00 seconds
+ Time for solution output                      .00 seconds
+ Time for constraint functions                 .00 seconds
+ Time for objective function                   .00 seconds
+MINOS 5.51: infeasible problem (or bad starting guess).
+19 iterations
+Nonlin evals: constrs = 18, Jac = 17.
+Adding  meminc=0.0862  to $minos_options might save time.

@@ -1,0 +1,59 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       2     Linear constraints       1
+ Nonlinear variables         2     Linear variables         1
+ Jacobian  variables         2     Objective variables      0
+ Total constraints           3     Total variables          3
+ 
+
+ 
+ The user has defined       4   out of       4   constraint gradients.
+ 
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     0      3               1  7.3E-01  3.3E+00  0.0000000E+00      1           r
+     1      1  4.5E-02      2  7.0E-01  3.2E+00  2.9928285E+01      1 3.7E-02   rl
+     2      1  1.4E-02      3  7.0E-01  5.0E+00  2.8610832E+01      1 3.7E-02 s  l
+     3      1  4.8E-02      5  9.0E-01  3.5E+00  1.9692546E+01      1 3.7E-02
+     4      1  2.0E-01      7  1.2E+00  1.6E+00  1.5488974E+01      1 3.7E-02
+     5      1  1.0E+00      8  4.0E-01  2.9E-01  3.5957763E+00      1 3.7E-02
+     6      1  1.0E+00      9  5.2E-02  3.4E+00  2.8800670E+00      1 3.7E-02
+     7      1  4.0E-01     11  2.2E-01  1.7E-02  2.7181302E+00      1 3.7E-02
+     8      1  4.9E-01     13  1.0E-01  2.5E-01  2.7164094E+00      1 3.7E-02
+     9      1  1.0E+00     14  1.2E-03  5.9E-02  2.7184868E+00      1 1.2E-01
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+    10      1  1.0E+00     15  1.8E-04  8.2E-04  2.7183431E+00      1 1.2E-01
+    11      1  1.0E+00     16  2.3E-05 (2.4E-08) 2.7182818E+00      1 1.2E-01
+    12      1  1.0E+00     17 (1.9E-14)(5.3E-13) 2.7182818E+00      1 1.2E-01
+ 
+ SNOPTB EXIT   0 -- finished successfully
+ SNOPTB INFO   1 -- optimality conditions satisfied
+
+ Problem name                 polak1
+ No. of iterations                  15   Objective            2.7182818285E+00
+ No. of major iterations            12   Linear    obj. term  2.7182818285E+00
+ Penalty parameter           1.241E-01   Nonlinear obj. term  0.0000000000E+00
+ No. of calls to funobj              0   No. of calls to funcon             18
+ No. of superbasics                  1   No. of basic nonlinears             1
+ No. of degenerate steps             1   Percentage                       6.67
+ Max x       (scaled)        3 2.7E+00   Max pi      (scaled)        3 1.0E+00
+ Max x                       3 2.7E+00   Max pi                      3 1.0E+00
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)        1 5.3E-13
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             1 5.3E-13
+ Nonlinear constraint violn    5.1E-14
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+15 iterations, objective 2.7182818284589945
+Nonlin evals: constrs = 18, Jac = 17.

@@ -1,0 +1,42 @@
+outlev=2
+
+ Nonzeros allowed for in LU factors    11868
+
+ Scale option  0,    Partial price   1
+ 
+ Itn      0 -- linear constraints satisfied.
+ funcon  sets      72   out of      72   constraint gradients.
+ funobj  sets      18   out of      18   objective  gradients.
+     1     0T 0.0E+00  0.00000E+00 1.7E+01 0.0E+00    0      3 1.0E+00     0  
+     2    40T 1.0E+00  1.16887E-04 1.2E-04 1.0E-01   10    115 1.0E+00     0  
+     3    40T 1.0E+00  3.13016E-07 4.6E-05 4.5E-04   17    202 1.0E+00     6  
+     4     5  1.0E+00  2.47991E-08 3.3E-06 1.5E-04   17    217 1.0E+00     0  
+ Completion Full    now requested
+     5    18  1.0E+00  1.90192E-13 3.5E-09 3.5E-07   17    257 1.0E-01     0  
+     6     1  1.0E+00  5.83115E-15 6.2E-10 3.5E-08   17    261 1.0E-01     0  
+ 
+ EXIT -- optimal solution found
+
+ Problem name                         
+ No. of iterations                 104   Objective value      5.8311531235E-15
+ No. of major iterations             6   Linear objective     0.0000000000E+00
+ Penalty parameter             .100000   Nonlinear objective  5.8311531235E-15
+ No. of calls to funobj            262   No. of calls to funcon            261
+ No. of superbasics                 17   No. of basic nonlinears             6
+ No. of degenerate steps             0   Percentage                        .00
+ Max x                       2 9.5E+00   Max pi                      7 1.0E+00
+ Max Primal infeas           0 0.0E+00   Max Dual infeas            17 6.9E-08
+ Nonlinear constraint violn    6.5E-09
+
+ funcon called with nstate =   2
+
+ funobj called with nstate =   2
+
+ Time for MPS input                            .00 seconds
+ Time for solving problem                      .00 seconds
+ Time for solution output                      .00 seconds
+ Time for constraint functions                 .00 seconds
+ Time for objective function                   .00 seconds
+MINOS 5.51: optimal solution found.
+104 iterations, objective 5.831153123455359e-15
+Nonlin evals: obj = 263, grad = 260, constrs = 262, Jac = 260.

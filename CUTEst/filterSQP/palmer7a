@@ -1,0 +1,3 @@
+filterSQP (20020316): SQP termination with iter > maxiter, objective = 10.385551001212265
+1000 iterations (0 for feasibility)
+Evals: obj = 991, constr = 991, grad = 679, Hes = 679

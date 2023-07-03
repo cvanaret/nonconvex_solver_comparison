@@ -1,0 +1,39 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       0     Linear constraints       8
+ Nonlinear variables         4     Linear variables         0
+ Jacobian  variables         0     Objective variables      4
+ Total constraints           8     Total variables          4
+ 
+
+ Itn      2: Feasible linear constraints
+
+ Itn      4: Feasible linear constraints
+ 
+ SQOPT  EXIT   0 -- finished successfully
+ SQOPT  INFO   1 -- optimality conditions satisfied
+
+ Problem name                 biggsc4
+ No. of iterations                  13   Objective           -2.4375000000E+01
+ No. of Hessian products            15   Linear    objective  0.0000000000E+00
+                                         Quadratic objective -2.4375000000E+01
+ No. of superbasics                  1   No. of basic nonlinears             4
+ No. of degenerate steps             2   Percentage                      15.38
+ Max x       (scaled)        1 7.5E-01   Max pi      (scaled)        6 1.9E+01
+ Max x                       1 3.8E+00   Max pi                      6 3.8E+00
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)        7 6.1E-10
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             7 1.2E-10
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+13 iterations, objective -24.375

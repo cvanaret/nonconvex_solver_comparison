@@ -1,0 +1,37 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       0     Linear constraints       2
+ Nonlinear variables        12     Linear variables         0
+ Jacobian  variables         0     Objective variables     12
+ Total constraints           2     Total variables         12
+ 
+
+ Itn      0: Feasible linear constraints
+ 
+ SQOPT  EXIT   0 -- finished successfully
+ SQOPT  INFO   1 -- optimality conditions satisfied
+
+ Problem name                 portfl2
+ No. of iterations                  12   Objective            2.9689239853E-02
+ No. of Hessian products            24   Linear    objective  6.3129079934E-03
+                                         Quadratic objective  2.3376331860E-02
+ No. of superbasics                  4   No. of basic nonlinears             1
+ No. of degenerate steps             0   Percentage                        .00
+ Max x       (scaled)        5 4.3E-01   Max pi      (scaled)        2 8.7E-02
+ Max x                       5 4.3E-01   Max pi                      2 1.0E+00
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)       10 6.9E-18
+ Max Primal infeas           0 0.0E+00   Max Dual infeas            10 6.9E-18
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+12 iterations, objective 0.02968923985329617

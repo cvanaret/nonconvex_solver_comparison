@@ -1,0 +1,10 @@
+outlev=2
+
+ Nonzeros allowed for in LU factors    11072
+
+ Scale option  1,    Partial price   1
+ 
+ Itn      1 -- linear constraints satisfied.
+MINOS 5.51: solution aborted.
+1 iterations
+Nonlin evals: constrs = 1, Jac = 1.

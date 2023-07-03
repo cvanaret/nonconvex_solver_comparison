@@ -1,0 +1,42 @@
+outlev=2
+
+ Nonzeros allowed for in LU factors    10283
+
+ Scale option  0,    Partial price   1
+ 
+ Itn      0 -- linear constraints satisfied.
+ funcon  sets       2   out of       2   constraint gradients.
+ funobj  sets       4   out of       4   objective  gradients.
+     1     0T 0.0E+00  9.87859E-01 0.0E+00 4.0E-01    0      3 1.0E+00     0  
+     2    11  1.0E+00  9.53217E-03 0.0E+00 1.5E-03    4     29 1.0E+00     0  
+ Completion Full    now requested
+     3     7  1.0E+00  9.43671E-03 0.0E+00 4.0E-04    4     44 1.0E+00     0  
+     4     5  1.0E+00  9.40557E-03 0.0E+00 1.3E-04    4     53 1.0E+00     0  
+     5     5  1.0E+00  9.40199E-03 0.0E+00 1.0E-05    4     60 1.0E+00     0  
+     6     3  1.0E+00  9.40197E-03 0.0E+00 6.1E-09    4     65 1.0E+00     0  
+ 
+ EXIT -- optimal solution found
+
+ Problem name                         
+ No. of iterations                  31   Objective value      9.4019732545E-03
+ No. of major iterations             6   Linear objective     0.0000000000E+00
+ Penalty parameter            1.000000   Nonlinear objective  9.4019732545E-03
+ No. of calls to funobj             66   No. of calls to funcon             65
+ No. of superbasics                  4   No. of basic nonlinears             0
+ No. of degenerate steps             0   Percentage                        .00
+ Max x                       3 1.2E+01   Max pi                      2 1.0E+00
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             1 4.1E-08
+ Nonlinear constraint violn    0.0E+00
+
+ funcon called with nstate =   2
+
+ funobj called with nstate =   2
+
+ Time for MPS input                            .00 seconds
+ Time for solving problem                      .00 seconds
+ Time for solution output                      .00 seconds
+ Time for constraint functions                 .00 seconds
+ Time for objective function                   .00 seconds
+MINOS 5.51: optimal solution found.
+31 iterations, objective 0.009401973254470963
+Nonlin evals: obj = 67, grad = 64, constrs = 66, Jac = 64.

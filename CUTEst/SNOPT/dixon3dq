@@ -1,0 +1,37 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       0     Linear constraints       1
+ Nonlinear variables        10     Linear variables         0
+ Jacobian  variables         0     Objective variables     10
+ Total constraints           1     Total variables         10
+ 
+
+ Itn      0: Feasible linear constraints
+ 
+ SQOPT  EXIT   0 -- finished successfully
+ SQOPT  INFO   1 -- optimality conditions satisfied
+
+ Problem name                 dixon3dq
+ No. of iterations                  10   Objective            0.0000000000E+00
+ No. of Hessian products            21   Linear    objective -2.0000000000E+00
+                                         Quadratic objective  2.0000000000E+00
+ No. of superbasics                 10   No. of basic nonlinears             0
+ No. of degenerate steps             0   Percentage                        .00
+ Max x       (scaled)        1 1.0E+00   Max pi      (scaled)        1 1.0E+00
+ Max x                       1 1.0E+00   Max pi                      1 1.0E+00
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)        3 2.4E-15
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             3 2.4E-15
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+10 iterations, objective 4.440892098500626e-16

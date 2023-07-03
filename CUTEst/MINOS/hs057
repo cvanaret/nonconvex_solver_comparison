@@ -1,0 +1,42 @@
+outlev=2
+
+ Nonzeros allowed for in LU factors    10147
+
+ Scale option  0,    Partial price   1
+ 
+ Itn      0 -- linear constraints satisfied.
+ funcon  sets       2   out of       2   constraint gradients.
+ funobj  sets       2   out of       2   objective  gradients.
+     1     0T 0.0E+00  3.07986E-02 0.0E+00 8.0E-02    0      3 1.0E+00     0  
+     2     4  1.0E+00  3.06463E-02 0.0E+00 5.1E-06    2     12 1.0E+00     0  
+ Completion Full    now requested
+     3     3  1.0E+00  2.85080E-02 4.3E-04 1.4E-03    1     20 1.0E+00     0  
+     4     1  1.0E+00  2.84577E-02 1.3E-05 1.5E-05    1     23 1.0E+00     0  
+     5     2  1.0E+00  2.84597E-02 5.3E-10 2.5E-08    1     26 1.0E-01     0  
+     6     0  1.0E+00  2.84597E-02 1.2E-17 4.0E-09    1     27 1.0E-02     0  
+ 
+ EXIT -- optimal solution found
+
+ Problem name                         
+ No. of iterations                  10   Objective value      2.8459669723E-02
+ No. of major iterations             6   Linear objective     0.0000000000E+00
+ Penalty parameter             .001000   Nonlinear objective  2.8459669723E-02
+ No. of calls to funobj             28   No. of calls to funcon             27
+ No. of superbasics                  1   No. of basic nonlinears             1
+ No. of degenerate steps             0   Percentage                        .00
+ Max x                       2 1.3E+00   Max pi                      2 1.0E+00
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             2 8.1E-09
+ Nonlinear constraint violn    2.8E-17
+
+ funcon called with nstate =   2
+
+ funobj called with nstate =   2
+
+ Time for MPS input                            .00 seconds
+ Time for solving problem                      .00 seconds
+ Time for solution output                      .00 seconds
+ Time for constraint functions                 .00 seconds
+ Time for objective function                   .00 seconds
+MINOS 5.51: optimal solution found.
+10 iterations, objective 0.028459669722986834
+Nonlin evals: obj = 29, grad = 26, constrs = 28, Jac = 26.

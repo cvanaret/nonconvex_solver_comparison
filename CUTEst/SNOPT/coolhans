@@ -1,0 +1,46 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       3     Linear constraints       6
+ Nonlinear variables         9     Linear variables         0
+ Jacobian  variables         9     Objective variables      9
+ Total constraints           9     Total variables          9
+ 
+
+ 
+ The user has defined      27   out of      27   constraint gradients.
+ SnOptB  will define        9   gradients for the  FP objective.
+ 
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     0      2               1  1.6E-02  6.1E-03  1.0554960E-04                  r
+     1      1  8.0E-01      2  2.9E-03  6.1E-03  2.6692727E-01        8.5E+03   rl
+     2      0  1.0E+00      3  9.7E-06  6.1E-03 -1.8538809E-02        7.4E+05   r
+     3      0  1.0E+00     12 (2.1E-08) 1.1E-02  1.8459502E-04        2.7E+08 s
+ 
+ SNOPTB EXIT   0 -- finished successfully
+ SNOPTB INFO   2 -- feasible point found
+
+ Problem name                 coolhans
+ No. of iterations                   5   Objective            0.0000000000E+00
+ No. of major iterations             3   Linear    obj. term  0.0000000000E+00
+ Penalty parameter           2.709E+08   Norm (x - x0)**2     1.8466181281E-04
+ No. of calls to funobj              0   No. of calls to funcon             13
+ No. of degenerate steps             2   Percentage                      40.00
+ Max x                       2 1.2E+00   Max pi                      5 2.0E-02
+ Max Primal infeas          13 8.5E-14   Max Dual infeas             4 1.1E-02
+ Nonlinear constraint violn    2.6E-08
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Feasible point found.
+5 iterations, objective 0
+Nonlin evals: constrs = 13, Jac = 12.

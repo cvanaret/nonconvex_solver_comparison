@@ -1,0 +1,3 @@
+objective _sobj[1]: Initial function value too large = 1.0E+12
+CONOPT 3.17A: Evaluation error limit; objective 0
+0 iterations; evals: nf = 1, ng = 0, nc = 0, nJ = 0, nH = 0, nHv = 0

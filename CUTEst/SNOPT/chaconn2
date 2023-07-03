@@ -1,0 +1,49 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       3     Linear constraints       1
+ Nonlinear variables         2     Linear variables         1
+ Jacobian  variables         2     Objective variables      0
+ Total constraints           4     Total variables          3
+ 
+
+ 
+ The user has defined       6   out of       6   constraint gradients.
+ 
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     0      1               1  5.4E+00  9.5E-01  0.0000000E+00                  r
+     1      0  8.1E-01      2  1.5E+00  4.2E-02  1.8258368E+00        1.3E-01   rl
+     2      0  2.9E-02      4  1.4E+00  4.8E-01  1.8805444E+00        1.7E-01 s
+     3      0  1.0E+00      5  7.7E-02  6.4E-03  2.0025992E+00        2.8E-01
+     4      0  1.0E+00      6  4.1E-05  7.5E-05  1.9999999E+00        2.8E-01
+     5      0  1.0E+00      7 (5.9E-10)(6.9E-10) 2.0000000E+00        3.9E+01
+ 
+ SNOPTB EXIT   0 -- finished successfully
+ SNOPTB INFO   1 -- optimality conditions satisfied
+
+ Problem name                 chaconn2
+ No. of iterations                   1   Objective            1.9999999994E+00
+ No. of major iterations             5   Linear    obj. term  1.9999999994E+00
+ Penalty parameter           3.941E+01   Nonlinear obj. term  0.0000000000E+00
+ No. of calls to funobj              0   No. of calls to funcon              8
+ No. of degenerate steps             0   Percentage                        .00
+ Max x       (scaled)        3 2.0E+00   Max pi      (scaled)        4 1.0E+00
+ Max x                       3 2.0E+00   Max pi                      4 1.0E+00
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)        1 6.9E-10
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             1 6.9E-10
+ Nonlinear constraint violn    1.2E-09
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+1 iterations, objective 1.9999999994354594
+Nonlin evals: constrs = 8, Jac = 7.

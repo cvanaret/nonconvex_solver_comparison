@@ -1,0 +1,33 @@
+outlev=2
+
+ Nonzeros allowed for in LU factors    11128
+
+ Scale option  0,    Partial price   1
+ 
+ Itn      6 -- linear E rows feasible.   Obj =   0.000000000E+00
+ Itn      6 -- linear constraints satisfied.
+ funobj  sets      16   out of      16   objective  gradients.
+ Itn      6 -- feasible solution.  Objective =   5.047857363E+03
+ 
+ EXIT -- optimal solution found
+
+ Problem name                         
+ No. of iterations                  22   Objective value      2.4489969752E+02
+ No. of major iterations             1   Linear objective     0.0000000000E+00
+ Penalty parameter            1.000000   Nonlinear objective  2.4489969752E+02
+ No. of calls to funobj             29   No. of calls to funcon              0
+ No. of superbasics                  3   No. of basic nonlinears             8
+ No. of degenerate steps             0   Percentage                        .00
+ Max x                       7 1.7E+00   Max pi                      8 8.4E+01
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             3 4.6E-05
+
+ funobj called with nstate =   2
+
+ Time for MPS input                            .00 seconds
+ Time for solving problem                      .00 seconds
+ Time for solution output                      .00 seconds
+ Time for constraint functions                 .00 seconds
+ Time for objective function                   .00 seconds
+MINOS 5.51: optimal solution found.
+22 iterations, objective 244.89969751681807
+Nonlin evals: obj = 30, grad = 27.

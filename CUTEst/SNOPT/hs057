@@ -1,0 +1,47 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       1     Linear constraints       1
+ Nonlinear variables         2     Linear variables         0
+ Jacobian  variables         2     Objective variables      2
+ Total constraints           2     Total variables          2
+ 
+
+ 
+ The user has defined       2   out of       2   constraint gradients.
+ The user has defined       2   out of       2   objective  gradients.
+ 
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     0      2               1 (0.0E+00) 5.8E-02  3.0798602E-02      1           r
+     1      2  3.7E-02      3 (0.0E+00) 1.6E-05  3.0646306E-02      2           r
+     2      1  3.2E-05      5 (0.0E+00) 2.6E-06  3.0646306E-02      2         s
+     3      1  6.1E-05     21 (0.0E+00) 2.6E-06  3.0646306E-02      2          M
+ 
+ SNOPTB EXIT   0 -- finished successfully
+ SNOPTB INFO   3 -- requested accuracy could not be achieved
+
+ Problem name                 hs057
+ No. of iterations                   6   Objective            3.0646306006E-02
+ No. of major iterations             3   Linear    obj. term  0.0000000000E+00
+ Penalty parameter           0.000E+00   Nonlinear obj. term  3.0646306006E-02
+ No. of calls to funobj             62   No. of calls to funcon             62
+ No. of superbasics                  2   No. of basic nonlinears             1
+ No. of degenerate steps             0   Percentage                        .00
+ Max x                       2 5.0E+00   Max pi                      2 1.0E+00
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             2 2.6E-06
+ Nonlinear constraint violn    0.0E+00
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Requested accuracy could not be achieved.
+6 iterations, objective 0.03064630600632193
+Nonlin evals: obj = 62, grad = 61, constrs = 62, Jac = 61.

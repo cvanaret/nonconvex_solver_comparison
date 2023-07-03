@@ -1,0 +1,53 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints      24     Linear constraints       1
+ Nonlinear variables        49     Linear variables         8
+ Jacobian  variables        48     Objective variables     49
+ Total constraints          25     Total variables         57
+ 
+
+ 
+ The user has defined     104   out of     104   constraint gradients.
+ The user has defined      49   out of      49   objective  gradients.
+ 
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     0     48               1  3.0E-01  6.0E+00 -8.9101927E+02     22           r
+     1     15  1.8E-02      3  3.0E-01  4.3E+00  3.4147766E+03     20 1.2E+01   r
+     2     14  7.5E-02      5  2.7E-01  1.0E+01  5.6556290E+03      9 1.9E+01 s
+     3      1  1.0E+00      6  9.2E-04  3.5E-02  1.8742346E+04      9 2.5E+02
+     4      3  1.0E+00      7 (2.2E-07) 7.7E-03  1.8744296E+04      7 2.1E+03
+     5      1  1.0E+00      9 (2.5E-07) 8.7E-06  1.8744045E+04      7 6.4E+01
+     6      7  1.0E+00     10 (2.5E-11) 5.4E-05  1.8744045E+04        2.2E+01 s
+     7      0  1.0E+00     11  1.9E-05  5.4E-04  1.8744015E+04        2.2E+01
+     8      0  1.0E+00     12 (3.0E-11)(8.6E-10) 1.8744015E+04        2.0E+01
+ 
+ SNOPTB EXIT   0 -- finished successfully
+ SNOPTB INFO   1 -- optimality conditions satisfied
+
+ Problem name                 dnieper
+ No. of iterations                  89   Objective            1.8744014609E+04
+ No. of major iterations             8   Linear    obj. term  0.0000000000E+00
+ Penalty parameter           2.033E+01   Nonlinear obj. term  1.8744014609E+04
+ No. of calls to funobj             13   No. of calls to funcon             13
+ No. of degenerate steps             0   Percentage                        .00
+ Max x       (scaled)       25 5.1E+01   Max pi      (scaled)       12 1.0E+03
+ Max x                      25 5.1E+01   Max pi                     12 1.0E+03
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)       49 1.5E-11
+ Max Primal infeas           0 0.0E+00   Max Dual infeas            49 1.5E-11
+ Nonlinear constraint violn    1.5E-09
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+89 iterations, objective 18744.014608504778
+Nonlin evals: obj = 13, grad = 12, constrs = 13, Jac = 12.

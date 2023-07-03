@@ -1,0 +1,37 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       0     Linear constraints       4
+ Nonlinear variables         5     Linear variables         0
+ Jacobian  variables         0     Objective variables      5
+ Total constraints           4     Total variables          5
+ 
+
+ Itn      3: Feasible linear constraints
+ 
+ SQOPT  EXIT   0 -- finished successfully
+ SQOPT  INFO   1 -- optimality conditions satisfied
+
+ Problem name                 hs052
+ No. of iterations                   5   Objective            5.3266475645E+00
+ No. of Hessian products             5   Linear    objective  4.6532951289E+00
+                                         Quadratic objective  6.7335243553E-01
+ No. of superbasics                  2   No. of basic nonlinears             3
+ No. of degenerate steps             2   Percentage                      40.00
+ Max x       (scaled)        3 3.3E-01   Max pi      (scaled)        1 6.8E+00
+ Max x                       3 5.2E-01   Max pi                      3 7.7E+00
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)        1 1.8E-15
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             4 8.6E-16
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+5 iterations, objective 5.326647564469915

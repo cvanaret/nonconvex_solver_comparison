@@ -1,0 +1,64 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       0     Linear constraints       1
+ Nonlinear variables         2     Linear variables         0
+ Jacobian  variables         0     Objective variables      2
+ Total constraints           1     Total variables          2
+ 
+
+ 
+ The user has defined       2   out of       2   objective  gradients.
+ 
+
+ Major Minors     Step   nObj Feasible  Optimal      Objective     nS
+     0      2               1           1.2E+00  8.8930315E+02      2   r
+     1      2  6.1E-02      2           1.1E+00  9.9227194E+01      2   rl
+     2      1  4.1E-01      3           7.4E-01  2.2594702E+00      2 s  l
+     3      1  1.0E+00      4           7.6E-01  1.4819750E+00      2
+     4      1  1.0E+00      5           8.9E-01  2.0479556E-01      2
+     5      1  1.0E+00      6           8.1E-01  9.9759853E-02      2
+     6      1  1.0E+00      7           3.1E-01  8.9622563E-02      2
+     7      1  1.0E+00      8           3.5E-01  8.8641602E-02      2
+     8      1  1.0E+00      9           4.7E-01  8.5676421E-02      2
+     9      1  1.0E+00     10           6.5E-01  7.8460717E-02      2
+
+ Major Minors     Step   nObj Feasible  Optimal      Objective     nS
+    10      1  1.0E+00     11           9.4E-01  5.4834137E-02      2
+    11      1  5.1E-01     13           3.6E-01  5.5893222E-03      2
+    12      1  1.0E+00     14           2.8E-01  3.8771398E-03      2
+    13      1  1.0E+00     15           7.5E-02  2.1852470E-03      2
+    14      1  1.0E+00     16           5.8E-02  1.3122451E-04      2
+    15      1  1.0E+00     17           2.1E-02  8.2514293E-06      2
+    16      1  1.0E+00     18           9.5E-04  7.0415518E-08      2
+    17      1  1.0E+00     19           3.0E-05  2.6430006E-10      2
+    18      1  1.0E+00     20          (8.6E-07) 1.5940636E-14      2
+ 
+ SNOPTB EXIT   0 -- finished successfully
+ SNOPTB INFO   1 -- optimality conditions satisfied
+
+ Problem name                 denschnc
+ No. of iterations                  21   Objective            1.5940636002E-14
+ No. of major iterations            18   Linear    obj. term  0.0000000000E+00
+                                         Nonlinear obj. term  1.5940636002E-14
+ No. of calls to funobj             21   No. of calls to funcon              0
+ No. of superbasics                  2   No. of basic nonlinears             0
+ No. of degenerate steps             0   Percentage                        .00
+ Max x       (scaled)        1 1.0E+00   Max pi      (scaled)        1 1.0E+00
+ Max x                       1 1.0E+00   Max pi                      1 1.0E+00
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)        2 8.6E-07
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             2 8.6E-07
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+21 iterations, objective 1.59406360018552e-14
+Nonlin evals: obj = 21, grad = 20.

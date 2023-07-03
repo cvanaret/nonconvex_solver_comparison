@@ -1,0 +1,33 @@
+outlev=2
+
+ Nonzeros allowed for in LU factors    13730
+
+ Scale option  0,    Partial price   1
+ 
+ Itn      0 -- linear E rows feasible.   Obj =   0.000000000E+00
+ Itn      0 -- linear constraints satisfied.
+ funobj  sets      75   out of      75   objective  gradients.
+ Itn      0 -- feasible solution.  Objective =   1.138319713E+02
+ 
+ EXIT -- the superbasics limit is too small:     50
+
+ Problem name                         
+ No. of iterations                 103   Objective value      7.8169100334E-01
+ No. of major iterations             1   Linear objective     0.0000000000E+00
+ Penalty parameter            1.000000   Nonlinear objective  7.8169100334E-01
+ No. of calls to funobj            208   No. of calls to funcon              0
+ No. of superbasics                 50   No. of basic nonlinears             1
+ No. of degenerate steps             0   Percentage                        .00
+ Max x                      30 4.3E-02   Max pi                      2 1.0E+00
+ Max Primal infeas           0 0.0E+00   Max Dual infeas            43 1.6E+00
+
+ funobj called with nstate =   7
+
+ Time for MPS input                            .00 seconds
+ Time for solving problem                      .02 seconds
+ Time for solution output                      .00 seconds
+ Time for constraint functions                 .00 seconds
+ Time for objective function                   .00 seconds
+MINOS 5.51: the superbasics limit (50) is too small.
+103 iterations, objective 0.7816910033400725
+Nonlin evals: obj = 209, grad = 206.

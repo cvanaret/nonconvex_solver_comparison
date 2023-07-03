@@ -1,0 +1,7 @@
+
+ SBMIN : maximum number of iterations reached 
+LANCELOT: too many iterations.
+1000 iterations; objective 10.575231151210868
+M = 0, N = 6, nslacks = 0, NEL = 13, NG = 13
+NFCALL = 1001, NGCALL = 892
+10 failed function evaluations.

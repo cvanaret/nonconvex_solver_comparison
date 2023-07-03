@@ -1,0 +1,64 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       1     Linear constraints       1
+ Nonlinear variables         2     Linear variables         0
+ Jacobian  variables         2     Objective variables      2
+ Total constraints           2     Total variables          2
+ 
+
+ 
+ The user has defined       2   out of       2   constraint gradients.
+ The user has defined       2   out of       2   objective  gradients.
+ 
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     0      2               1 (0.0E+00) 3.5E-01  8.6002834E+01      2           r
+     1      1  1.0E+00      2 (0.0E+00) 3.9E-01  8.5892171E+01      2           r
+     2      2  7.8E-01      4 (0.0E+00) 5.3E-01  8.5317704E+01      1         sm l
+     3      1  1.0E-01      7 (0.0E+00) 8.4E-01  7.5144697E+01      1          m d
+     4      1  1.0E-01     10 (0.0E+00) 8.2E-01  6.1913206E+01      1            d
+     5      1  1.0E-01     12 (0.0E+00) 7.9E-01  5.0073297E+01      1            d
+     6      3  1.0E-01     14 (0.0E+00) 7.5E-01  4.0985827E+01      2            d
+     7      2  1.0E+00     15  3.0E-01  1.2E+00  2.4399428E+01      1
+     8      1  1.0E+00     16  1.5E-03  1.1E+00  2.4525155E+01      1 1.2E-04
+     9      2  1.0E+00     18  1.7E-04  6.4E-01  2.4474904E+01      2 1.2E-04  m
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+    10      2  7.1E-01     21 (0.0E+00) 1.2E+00 -9.4519604E+00      1 1.2E-04  m
+    11      1  5.1E-01     23 (0.0E+00) 1.3E+00 -5.2578444E+01        1.2E-04
+    12      2  4.3E-01     25 (0.0E+00) 6.9E-01 -5.9667709E+01      2 1.2E-04
+    13      1  1.0E+00     26 (0.0E+00) 5.5E-01 -6.0732166E+01      2 1.2E-04
+    14      1  1.0E+00     27 (0.0E+00) 1.1E-02 -6.2053526E+01      2 1.2E-04
+    15      1  1.0E+00     28 (0.0E+00) 1.4E-03 -6.2053855E+01      2 1.2E-04
+    16      1  1.0E+00     29 (0.0E+00) 1.2E-04 -6.2053869E+01      2 1.2E-04
+    17      1  1.0E+00     30 (0.0E+00) 5.0E-06 -6.2053869E+01      2 1.2E-04
+    18      1  1.0E+00     31 (0.0E+00)(7.2E-08)-6.2053869E+01      2 1.2E-04
+ 
+ SNOPTB EXIT   0 -- finished successfully
+ SNOPTB INFO   1 -- optimality conditions satisfied
+
+ Problem name                 himmelp2
+ No. of iterations                  27   Objective           -6.2053869375E+01
+ No. of major iterations            18   Linear    obj. term  0.0000000000E+00
+ Penalty parameter           1.231E-04   Nonlinear obj. term -6.2053869375E+01
+ No. of calls to funobj             32   No. of calls to funcon             32
+ No. of superbasics                  2   No. of basic nonlinears             0
+ No. of degenerate steps             0   Percentage                        .00
+ Max x                       1 8.1E+01   Max pi                      2 1.0E+00
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             1 7.2E-08
+ Nonlinear constraint violn    0.0E+00
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+27 iterations, objective -62.05386937542954
+Nonlin evals: obj = 32, grad = 31, constrs = 32, Jac = 31.

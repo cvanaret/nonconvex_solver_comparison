@@ -1,0 +1,50 @@
+outlev=2
+
+ Nonzeros allowed for in LU factors    10219
+
+ Scale option  0,    Partial price   1
+ 
+ Itn      0 -- linear constraints satisfied.
+ funcon  sets       2   out of       2   constraint gradients.
+ funobj  sets       3   out of       3   objective  gradients.
+     1     0T 0.0E+00  0.00000E+00 9.2E-01 1.6E+01    0      3 1.0E+00     0  
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-02 * (|RHS|  +  1.2E+00)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-01 * (|RHS|  +  1.2E+00)
+     2     5I 1.0E+00 -7.76369E+01 7.7E-02 4.3E+00    2     18 1.0E+00     0  
+     3     2  2.2E-01 -7.70448E+01 6.1E-02 2.7E+00    1     22 1.0E+00     0  
+     4     2  1.0E+00 -9.29096E+01 6.4E-02 4.6E+00    1     27 1.0E+00     0  
+     5     2  1.0E+00 -1.02937E+02 1.7E-02 6.3E+00    1     33 1.0E+00     0  
+     6     2  1.0E+00 -1.20329E+02 3.2E-02 9.9E+00    1     39 1.0E+00     0  
+     7     2  1.0E+00 -1.33746E+02 2.5E-02 7.6E+00    1     45 1.0E+00     0  
+     8     2  1.0E+00 -1.41288E+02 1.7E-02 4.3E+00    1     51 1.0E+00     0  
+     9     2  1.0E+00 -1.43632E+02 8.1E-03 1.1E+00    1     57 1.0E+00     0  
+    10     2  1.0E+00 -1.43676E+02 1.1E-03 3.1E-02    1     62 1.0E+00     0  
+ Completion Full    now requested
+    11     2  1.0E+00 -1.43646E+02 5.8E-07 1.9E-05    1     66 1.0E+00     0  
+    12     1  1.0E+00 -1.43646E+02 8.3E-13 1.3E-09    1     69 1.0E-01     1  
+ 
+ EXIT -- optimal solution found
+
+ Problem name                         
+ No. of iterations                  24   Objective value     -1.4364614220E+02
+ No. of major iterations            12   Linear objective     0.0000000000E+00
+ Penalty parameter             .010000   Nonlinear objective -1.4364614220E+02
+ No. of calls to funobj             70   No. of calls to funcon             69
+ No. of superbasics                  1   No. of basic nonlinears             2
+ No. of degenerate steps             0   Percentage                        .00
+ Max x                       3 5.3E+00   Max pi                      2 1.7E+00
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             3 3.5E-09
+ Nonlinear constraint violn    1.0E-11
+
+ funcon called with nstate =   2
+
+ funobj called with nstate =   2
+
+ Time for MPS input                            .00 seconds
+ Time for solving problem                      .00 seconds
+ Time for solution output                      .00 seconds
+ Time for constraint functions                 .00 seconds
+ Time for objective function                   .00 seconds
+MINOS 5.51: optimal solution found.
+24 iterations, objective -143.64614219780347
+Nonlin evals: obj = 71, grad = 68, constrs = 70, Jac = 68.

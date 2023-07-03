@@ -1,0 +1,3 @@
+filterSQP (20020316): SQP termination with rho < eps, objective = 8.968561735859769
+45 iterations (44 for feasibility)
+Evals: obj = 1, constr = 115, grad = 8, Hes = 45

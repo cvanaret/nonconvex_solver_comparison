@@ -1,0 +1,45 @@
+outlev=2
+
+ Nonzeros allowed for in LU factors    11829
+
+ Scale option  0,    Partial price   1
+ 
+ Itn      0 -- linear constraints satisfied.
+ funcon  sets      67   out of      67   constraint gradients.
+ funobj  sets      21   out of      21   objective  gradients.
+     1     0T 0.0E+00  1.22207E+01 2.6E-02 2.4E+00    0      3 1.0E+00     0  
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-02 * (|RHS|  +  1.1E+02)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-01 * (|RHS|  +  1.1E+02)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E+00 * (|RHS|  +  1.1E+02)
+ Penalty parameter increased to    1.00E+01
+ Penalty parameter increased to    1.00E+02
+ Penalty parameter increased to    1.00E+03
+ Penalty parameter increased to    1.00E+04
+ Search exit  6 -- no minimizer.         Itn =     32   Norm rg =  6.843E+23
+ Penalty parameter increased to    1.00E+05
+ 
+ EXIT -- the problem is unbounded  (or badly scaled).
+
+ Problem name                         
+ No. of iterations                  32   Objective value      3.9273537838E-01
+ No. of major iterations             2   Linear objective     1.1760024006E-06
+ Penalty parameter       100000.000000   Nonlinear objective  3.9273230444E-01
+ No. of calls to funobj             49   No. of calls to funcon             48
+ No. of superbasics                  2   No. of basic nonlinears            16
+ No. of degenerate steps             3   Percentage                       9.38
+ Max x                       4 8.8E+02   Max pi                     27 6.2E+24
+ Max Primal infeas          27 4.9E+01   Max Dual infeas            11 6.5E+24
+ Nonlinear constraint violn    5.9E+08
+
+ funcon called with nstate =   4
+
+ funobj called with nstate =   4
+
+ Time for MPS input                            .00 seconds
+ Time for solving problem                      .00 seconds
+ Time for solution output                      .00 seconds
+ Time for constraint functions                 .00 seconds
+ Time for objective function                   .00 seconds
+MINOS 5.51: unbounded (or badly scaled) problem.
+32 iterations
+Nonlin evals: obj = 50, grad = 47, constrs = 49, Jac = 47.

@@ -1,0 +1,123 @@
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.12.8, running with linear solver mumps.
+NOTE: Other linear solvers might be more efficient (see Ipopt documentation).
+
+Number of nonzeros in equality constraint Jacobian...:        6
+Number of nonzeros in inequality constraint Jacobian.:        0
+Number of nonzeros in Lagrangian Hessian.............:        5
+
+Total number of variables............................:        5
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:        2
+Total number of inequality constraints...............:        0
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:        0
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  3.0000000e+00 1.00e+00 2.00e+00  -1.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  1.2500000e+00 2.50e-01 1.00e-04  -1.0 1.00e+00  -4.0 1.00e+00 1.00e+00f  1
+   2  1.0625000e+00 6.25e-02 3.96e-05  -1.7 2.50e-01  -3.6 1.00e+00 1.00e+00h  1
+   3  1.0156250e+00 1.56e-02 5.43e-05  -2.5 1.25e-01  -3.1 1.00e+00 1.00e+00h  1
+   4  1.0039062e+00 3.91e-03 7.28e-05  -3.8 6.25e-02  -2.7 1.00e+00 1.00e+00h  1
+   5  1.0009766e+00 9.77e-04 9.72e-05  -3.8 3.13e-02  -2.3 1.00e+00 1.00e+00h  1
+   6  1.0002441e+00 2.44e-04 1.30e-04  -5.7 1.56e-02  -1.9 1.00e+00 1.00e+00h  1
+   7  1.0000610e+00 6.10e-05 1.73e-04  -5.7 7.81e-03  -1.4 1.00e+00 1.00e+00h  1
+   8  1.0000153e+00 1.53e-05 2.31e-04  -5.7 3.91e-03  -1.0 1.00e+00 1.00e+00h  1
+   9  1.0000038e+00 3.81e-06 3.07e-04  -5.7 1.95e-03  -0.6 1.00e+00 1.00e+00h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10  1.0000010e+00 9.54e-07 4.10e-04  -5.7 9.77e-04  -0.2 1.00e+00 1.00e+00h  1
+  11  1.0000002e+00 2.38e-07 5.46e-04  -5.7 4.88e-04   0.3 1.00e+00 1.00e+00h  1
+  12  1.0000001e+00 5.96e-08 7.29e-04  -5.7 2.44e-04   0.7 1.00e+00 1.00e+00h  1
+  13  1.0000000e+00 1.49e-08 9.71e-04  -5.7 1.22e-04   1.1 1.00e+00 1.00e+00h  1
+  14  1.0000000e+00 3.73e-09 1.30e-03  -5.7 6.10e-05   1.5 1.00e+00 1.00e+00h  1
+  15  1.0000000e+00 9.31e-10 1.73e-03  -5.7 3.05e-05   2.0 1.00e+00 1.00e+00h  1
+  16  1.0000000e+00 2.33e-10 2.30e-03  -5.7 1.53e-05   2.4 1.00e+00 1.00e+00h  1
+  17  1.0000000e+00 5.82e-11 3.07e-03  -5.7 7.63e-06   2.8 1.00e+00 1.00e+00h  1
+  18  1.0000000e+00 1.46e-11 4.09e-03  -5.7 3.81e-06   3.2 1.00e+00 1.00e+00h  1
+  19  1.0000000e+00 3.64e-12 5.46e-03  -5.7 1.91e-06   3.7 1.00e+00 1.00e+00h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  20  1.0000000e+00 9.09e-13 7.28e-03  -5.7 9.54e-07   4.1 1.00e+00 1.00e+00h  1
+  21  1.0000000e+00 2.27e-13 9.70e-03  -5.7 4.77e-07   4.5 1.00e+00 1.00e+00h  1
+  22  1.0000000e+00 5.68e-14 1.29e-02  -5.7 2.38e-07   4.9 1.00e+00 1.00e+00h  1
+  23  1.0000000e+00 1.42e-14 1.72e-02  -5.7 1.19e-07   5.4 1.00e+00 1.00e+00h  1
+  24  1.0000000e+00 4.00e-15 1.40e-02  -8.6 2.24e-08   5.8 1.00e+00 1.00e+00h  1
+  25  1.0000000e+00 3.33e-15 1.29e-02  -8.6 7.71e-09   6.2 1.00e+00 1.00e+00h  1
+  26  1.0000000e+00 2.22e-15 1.02e-02  -8.6 1.84e-08   5.7 1.00e+00 1.00e+00h  1
+  27  1.0000000e+00 1.78e-15 9.33e-03  -8.6 6.28e-09   6.2 1.00e+00 1.00e+00h  1
+  28  1.0000000e+00 1.11e-15 7.22e-03  -8.6 1.46e-08   5.7 1.00e+00 1.00e+00h  1
+  29  1.0000000e+00 8.88e-16 6.51e-03  -8.6 4.93e-09   6.1 1.00e+00 1.00e+00h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  30  1.0000000e+00 4.44e-16 4.90e-03  -8.6 1.11e-08   5.6 1.00e+00 1.00e+00h  1
+  31  1.0000000e+00 4.44e-16 4.36e-03  -8.6 3.71e-09   6.1 1.00e+00 1.00e+00h  1
+  32  1.0000000e+00 2.22e-16 3.18e-03  -8.6 8.14e-09   5.6 1.00e+00 1.00e+00h  1
+  33  1.0000000e+00 2.22e-16 2.80e-03  -8.6 2.68e-09   6.0 1.00e+00 1.00e+00h  1
+  34  1.0000000e+00 0.00e+00 1.98e-03  -8.6 5.68e-09   5.5 1.00e+00 1.00e+00h  1
+reference_theta is slightly positive at feasible point.  Setting it to -2.220446e-16
+  35  1.0000000e+00 1.11e-16 1.71e-03  -8.6 1.84e-09   6.0 1.00e+00 1.00e+00f  1
+  36  1.0000000e+00 0.00e+00 1.16e-03  -8.6 3.76e-09   5.5 1.00e+00 1.00e+00h  1
+reference_theta is slightly positive at feasible point.  Setting it to -2.220446e-16
+  37  1.0000000e+00 0.00e+00 9.91e-04  -8.6 1.20e-09   5.9 1.00e+00 1.00e+00f  1
+reference_theta is slightly positive at feasible point.  Setting it to -2.220446e-16
+  38  1.0000000e+00 0.00e+00 9.29e-04  -8.6 4.23e-10   6.3 1.00e+00 1.00e+00f  1
+reference_theta is slightly positive at feasible point.  Setting it to -2.220446e-16
+  39  1.0000000e+00 0.00e+00 7.76e-04  -8.6 1.06e-09   5.9 1.00e+00 1.00e+00f  1
+reference_theta is slightly positive at feasible point.  Setting it to -2.220446e-16
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  40  1.0000000e+00 0.00e+00 7.23e-04  -8.6 3.70e-10   6.3 1.00e+00 1.00e+00f  1
+reference_theta is slightly positive at feasible point.  Setting it to -2.220446e-16
+  41  1.0000000e+00 0.00e+00 5.91e-04  -8.6 9.07e-10   5.8 1.00e+00 1.00e+00f  1
+reference_theta is slightly positive at feasible point.  Setting it to -2.220446e-16
+  42  1.0000000e+00 0.00e+00 5.46e-04  -8.6 3.14e-10   6.2 1.00e+00 1.00e+00f  1
+reference_theta is slightly positive at feasible point.  Setting it to -2.220446e-16
+  43  1.0000000e+00 0.00e+00 4.37e-04  -8.6 7.54e-10   5.8 1.00e+00 1.00e+00f  1
+reference_theta is slightly positive at feasible point.  Setting it to -2.220446e-16
+  44  1.0000000e+00 0.00e+00 3.99e-04  -8.6 2.59e-10   6.2 1.00e+00 1.00e+00f  1
+reference_theta is slightly positive at feasible point.  Setting it to -2.220446e-16
+  45  1.0000000e+00 0.00e+00 3.12e-04  -8.6 6.06e-10   5.7 1.00e+00 1.00e+00f  1
+reference_theta is slightly positive at feasible point.  Setting it to -2.220446e-16
+  46  1.0000000e+00 0.00e+00 2.82e-04  -8.6 2.05e-10   6.1 1.00e+00 1.00e+00f  1
+reference_theta is slightly positive at feasible point.  Setting it to -2.220446e-16
+  47  1.0000000e+00 0.00e+00 2.14e-04  -8.6 4.68e-10   5.7 1.00e+00 1.00e+00f  1
+reference_theta is slightly positive at feasible point.  Setting it to -2.220446e-16
+  48  1.0000000e+00 0.00e+00 1.92e-04  -8.6 1.57e-10   6.1 1.00e+00 1.00e+00f  1
+reference_theta is slightly positive at feasible point.  Setting it to -2.220446e-16
+  49  1.0000000e+00 0.00e+00 1.41e-04  -8.6 3.47e-10   5.6 1.00e+00 1.00e+00f  1
+reference_theta is slightly positive at feasible point.  Setting it to -2.220446e-16
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  50  1.0000000e+00 0.00e+00 1.25e-04  -8.6 1.15e-10   6.0 1.00e+00 1.00e+00f  1
+reference_theta is slightly positive at feasible point.  Setting it to -2.220446e-16
+  51  1.0000000e+00 0.00e+00 8.91e-05  -8.6 2.46e-10   5.6 1.00e+00 1.00e+00f  1
+
+Number of Iterations....: 51
+
+                                   (scaled)                 (unscaled)
+Objective...............:   1.0000000000000000e+00    1.0000000000000000e+00
+Dual infeasibility......:   8.9060838912491576e-05    8.9060838912491576e-05
+Constraint violation....:   0.0000000000000000e+00    0.0000000000000000e+00
+Complementarity.........:   0.0000000000000000e+00    0.0000000000000000e+00
+Overall NLP error.......:   8.2065919893241082e-08    8.9060838912491576e-05
+
+
+Number of objective function evaluations             = 52
+Number of objective gradient evaluations             = 52
+Number of equality constraint evaluations            = 52
+Number of inequality constraint evaluations          = 0
+Number of equality constraint Jacobian evaluations   = 52
+Number of inequality constraint Jacobian evaluations = 0
+Number of Lagrangian Hessian evaluations             = 51
+Total CPU secs in IPOPT (w/o function evaluations)   =      0.003
+Total CPU secs in NLP function evaluations           =      0.000
+
+EXIT: Solved To Acceptable Level.
+ 
+Ipopt 3.12.8: Solved To Acceptable Level.

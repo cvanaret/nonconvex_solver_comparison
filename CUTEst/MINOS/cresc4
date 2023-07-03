@@ -1,0 +1,63 @@
+outlev=2
+
+ Nonzeros allowed for in LU factors    10448
+
+ Scale option  0,    Partial price   1
+ 
+ Itn      0 -- linear constraints satisfied.
+ funcon  sets      44   out of      44   constraint gradients.
+ funobj  sets       3   out of       3   objective  gradients.
+     1     0T 0.0E+00  2.88219E+00 3.4E+01 2.3E+00    0      3 1.0E+00     0  
+     2    41T 1.0E+00  5.98792E+00 1.2E-01 7.3E+01    4     94 1.0E+00     0  
+     3    11  1.0E+00  9.04765E-01 4.7E-02 6.5E+00    2    113 1.0E+00     2  
+     4    41T 3.6E-01  1.94869E+01 2.0E-04 5.1E+02    3    214 1.0E+00     1  
+     5    40T 1.0E+00  4.76850E+01 0.0E+00 7.5E+01    4    329 1.0E+00     2  
+     6    40T 1.6E-01  4.25403E+01 0.0E+00 9.3E+00    3    432 1.0E+00     0  
+     7    41T 9.7E-03  4.34573E+01 0.0E+00 2.5E+01    4    551 1.0E+00     0  
+     8    41T 2.0E-01  5.95014E+01 1.3E-01 2.0E+03    1    633 1.0E+00     3  
+     9    16  1.0E+00 -1.99675E-06 1.8E+00 7.0E-01    2    659 1.0E+00     0  
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-02 * (|RHS|  +  7.0E+00)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-01 * (|RHS|  +  7.0E+00)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E+00 * (|RHS|  +  7.0E+00)
+    10    10I 2.8E-06 -5.01816E-06 1.8E+00 7.0E-01    0    671 1.0E+00     2  
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-02 * (|RHS|  +  1.2E+07)
+    11    43T 1.0E+00  8.36129E-02 4.6E+00 2.4E+03    4    775 1.0E+00     0  
+    12    15  1.0E+00  1.18509E-01 3.8E-01 7.4E+00    3    807 1.0E+00     0  
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-02 * (|RHS|  +  8.8E+00)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-01 * (|RHS|  +  8.8E+00)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E+00 * (|RHS|  +  8.8E+00)
+    13    18I 1.0E+00  1.35324E+01 1.3E+00 5.1E+00    2    833 1.0E+00     0  
+    14     5  1.0E+00  1.11216E+00 1.9E-01 2.1E+00    1    839 1.0E+00     0  
+    15     2  1.0E+00  1.29607E+00 2.3E-02 1.2E+00    0    843 1.0E+00     0  
+    16     4  1.0E+00  1.01678E+00 4.6E-03 9.6E-01    0    852 1.0E+00     0  
+    17     3  1.0E+00  9.25368E-01 5.0E-03 2.3E+00    1    858 1.0E+00     0  
+    18     2  1.0E+00  8.69198E-01 2.4E-04 1.6E-01    0    861 1.0E+00     0  
+    19     0  1.0E+00  8.71900E-01 4.9E-07 3.5E-04    0    862 1.0E+00     0  
+ Completion Full    now requested
+    20     0  1.0E+00  8.71898E-01 1.2E-12 5.4E-09    0    863 1.0E-01     0  
+ 
+ EXIT -- optimal solution found
+
+ Problem name                         
+ No. of iterations                 373   Objective value      8.7189759982E-01
+ No. of major iterations            20   Linear objective     0.0000000000E+00
+ Penalty parameter             .010000   Nonlinear objective  8.7189759982E-01
+ No. of calls to funobj            864   No. of calls to funcon            863
+ No. of superbasics                  0   No. of basic nonlinears             5
+ No. of degenerate steps             0   Percentage                        .00
+ Max x                       6 6.3E+00   Max pi                      1 1.0E+00
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             1 1.1E-08
+ Nonlinear constraint violn    9.0E-12
+
+ funcon called with nstate =   2
+
+ funobj called with nstate =   2
+
+ Time for MPS input                            .00 seconds
+ Time for solving problem                      .00 seconds
+ Time for solution output                      .00 seconds
+ Time for constraint functions                 .00 seconds
+ Time for objective function                   .00 seconds
+MINOS 5.51: optimal solution found.
+373 iterations, objective 0.8718975998192924
+Nonlin evals: obj = 865, grad = 862, constrs = 864, Jac = 862.

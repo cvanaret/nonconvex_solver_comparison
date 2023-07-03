@@ -1,0 +1,5 @@
+LANCELOT: problem solved.
+43 iterations; objective 0.00012068056941247892
+M = 42, N = 48, nslacks = 42, NEL = 40, NG = 43
+40 nontrivial linear maps reduce 200 variables to 80.
+NFCALL = 45, NGCALL = 42

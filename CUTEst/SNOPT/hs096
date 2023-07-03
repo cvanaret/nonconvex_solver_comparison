@@ -1,0 +1,45 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       4     Linear constraints       1
+ Nonlinear variables         5     Linear variables         1
+ Jacobian  variables         5     Objective variables      0
+ Total constraints           5     Total variables          6
+ 
+
+ 
+ The user has defined      16   out of      16   constraint gradients.
+ 
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     0      1               1  5.0E+00  4.5E-05  0.0000000E+00                  r
+     1      0  1.0E+00      2 (8.9E-16)(0.0E+00) 1.5619525E-02        1.3E-03   r
+ 
+ SNOPTB EXIT   0 -- finished successfully
+ SNOPTB INFO   1 -- optimality conditions satisfied
+
+ Problem name                 hs096
+ No. of iterations                   1   Objective            1.5619525242E-02
+ No. of major iterations             1   Linear    obj. term  1.5619525242E-02
+ Penalty parameter           1.265E-03   Nonlinear obj. term  0.0000000000E+00
+ No. of calls to funobj              0   No. of calls to funcon              3
+ No. of degenerate steps             0   Percentage                        .00
+ Max x       (scaled)        5 3.3E-03   Max pi      (scaled)        5 1.0E+00
+ Max x                       5 3.3E-03   Max pi                      5 1.0E+00
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)        0 0.0E+00
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             0 0.0E+00
+ Nonlinear constraint violn    8.9E-16
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+1 iterations, objective 0.015619525242394072
+Nonlin evals: constrs = 3, Jac = 2.

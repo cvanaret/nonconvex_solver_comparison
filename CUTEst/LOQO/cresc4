@@ -1,0 +1,12 @@
+LOQO 6.02: LOQO 6.02: optimal solution (56 iterations, 111 evaluations)
+primal objective 0.8718975851
+  dual objective 0.8718975525
+f = 0.871898
+
+v1 = -0.75
+w1 = -1.53931e-08
+a = 1.5
+d = 0.5
+r = 0.5
+t = 2.2799e-08
+

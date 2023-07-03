@@ -1,0 +1,19 @@
+You are using the solver conopt.
+Checking ampl.mod for conopt_options...
+Executing AMPL.
+processing data.
+processing commands.
+Executing on prod-exec-7.neos-server.org
+
+4 variables, all nonlinear
+0 constraints
+1 nonlinear objective; 4 nonzeros.
+
+CONOPT 3.17A: threads=4
+CONOPT 3.17A: Locally optimal; objective 3651.0895
+23 iterations; evals: nf = 57, ng = 16, nc = 0, nJ = 0, nH = 2, nHv = 36
+24 failed evaluations
+A = 15.0455
+B = 0.511463
+C = 0.0224481
+D = 1.73725

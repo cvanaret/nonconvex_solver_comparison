@@ -1,0 +1,56 @@
+outlev=2
+
+ Nonzeros allowed for in LU factors    10422
+
+ Scale option  0,    Partial price   1
+ 
+ Itn      0 -- linear constraints satisfied.
+ funcon  sets      12   out of      12   constraint gradients.
+ funobj  sets       6   out of       6   objective  gradients.
+     1     0T 0.0E+00  1.37066E+02 0.0E+00 4.3E+01    0      3 1.0E+00     0  
+     2    15  1.0E+00  9.22858E+01 4.0E-02 1.5E-01    4     35 1.0E+00     0  
+     3     4  1.0E+00  0.00000E+00 5.6E-02 2.6E-18    1     40 1.0E+00     1  
+ Completion Full    now requested
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-02 * (|RHS|  +  2.1E+00)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-01 * (|RHS|  +  2.1E+00)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E+00 * (|RHS|  +  2.1E+00)
+     4     1I 1.0E+00  0.00000E+00 1.3E-01 0.0E+00    1     41 1.0E+00     0  
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-02 * (|RHS|  +  2.1E+00)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-01 * (|RHS|  +  2.1E+00)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E+00 * (|RHS|  +  2.1E+00)
+     5     0I 1.0E+00  0.00000E+00 1.3E-01 0.0E+00    1     42 1.0E+00     0  
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-02 * (|RHS|  +  2.1E+00)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-01 * (|RHS|  +  2.1E+00)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E+00 * (|RHS|  +  2.1E+00)
+     6     0I 1.0E+00  0.00000E+00 1.3E-01 0.0E+00    1     43 1.0E+00     0  
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-02 * (|RHS|  +  2.1E+00)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-01 * (|RHS|  +  2.1E+00)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E+00 * (|RHS|  +  2.1E+00)
+     7     0I 1.0E+00  0.00000E+00 1.3E-01 0.0E+00    1     44 1.0E+00     0  
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-02 * (|RHS|  +  2.1E+00)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E-01 * (|RHS|  +  2.1E+00)
+ XXX  Infeasible subproblem.    RHS perturbed by  1.0E+00 * (|RHS|  +  2.1E+00)
+     8     0I 1.0E+00  0.00000E+00 1.3E-01 0.0E+00    1     45 1.0E+00     0  
+ 
+ EXIT -- the problem is infeasible
+
+ Problem name                         
+ No. of iterations                  20   Objective value      0.0000000000E+00
+ No. of infeasibilities              1   Sum of infeas        2.0700000000E+00
+ No. of major iterations             8   Linear objective     0.0000000000E+00
+ Penalty parameter            1.000000   Nonlinear objective  0.0000000000E+00
+ No. of calls to funobj             46   No. of calls to funcon             45
+ No. of superbasics                  1   No. of basic nonlinears             0
+ No. of degenerate steps             0   Percentage                        .00
+ Max x                       4 1.5E+01   Max pi                      1 1.0E+00
+ Max Primal infeas           7 2.1E+00   Max Dual infeas             0 0.0E+00
+ Nonlinear constraint violn    2.1E+00
+
+ Time for MPS input                            .00 seconds
+ Time for solving problem                      .00 seconds
+ Time for solution output                      .00 seconds
+ Time for constraint functions                 .00 seconds
+ Time for objective function                   .00 seconds
+MINOS 5.51: infeasible problem (or bad starting guess).
+20 iterations
+Nonlin evals: obj = 46, grad = 44, constrs = 45, Jac = 44.

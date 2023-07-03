@@ -1,0 +1,89 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       0     Linear constraints       1
+ Nonlinear variables         3     Linear variables         0
+ Jacobian  variables         0     Objective variables      3
+ Total constraints           1     Total variables          3
+ 
+
+ 
+ The user has defined       3   out of       3   objective  gradients.
+ 
+
+ Major Minors     Step   nObj Feasible  Optimal      Objective     nS
+     0      3               1           1.7E+00  2.3517275E+04      3   r
+     1      1  1.2E-01      2           1.7E+00  2.2701968E+04      3   rl
+     2      2  1.2E-01      3           1.7E+00  2.1909837E+04      2 s  l
+     3      2  2.4E-01      4           1.7E+00  1.6419448E+04      3    l
+     4      2  9.6E-01      5           8.7E-01  7.8397981E+03      3    l
+     5      2  2.9E-04      9           1.1E+00  7.8105375E+03      3
+     6      2  1.9E-02     13           1.6E+00  6.1902251E+03      3
+     7      2  1.0E+00     14           1.5E+00  3.3802462E+03      3
+     8      2  1.0E+00     15           1.6E+00  1.7876872E+03      3
+     9      2  1.0E+00     16           1.6E+00  1.5223515E+03      3
+
+ Major Minors     Step   nObj Feasible  Optimal      Objective     nS
+    10      2  1.0E+00     17           1.5E+00  1.2565693E+03      3
+    11      2  5.4E-01     19           1.5E+00  1.0420206E+03      3
+    12      2  1.0E+00     20           1.5E+00  7.2022340E+02      3
+    13      2  6.4E-02     23           1.5E+00  5.4081589E+02      3
+    14      2  4.1E-01     25           1.0E+00  3.0116644E+02      3
+    15      2  1.0E+00     26           1.6E+00  2.5757341E+02      3
+    16      2  1.0E+00     27           1.5E+00  2.0573946E+02      3
+    17      2  1.0E+00     28           1.6E+00  1.6702252E+02      3
+    18      2  1.0E+00     29           1.6E+00  1.1453187E+02      3
+    19      2  1.0E+00     30           1.4E+00  8.5404555E+01      3
+
+ Major Minors     Step   nObj Feasible  Optimal      Objective     nS
+    20      2  1.0E+00     31           1.6E+00  4.9964001E+01      3
+    21      2  1.0E+00     32           1.7E+00  3.3737374E+01      3
+    22      2  1.0E+00     33           1.6E+00  2.0972722E+01      3
+    23      2  1.0E+00     34           1.5E+00  1.4273052E+01      3
+    24      2  1.0E+00     35           1.6E+00  9.9241110E+00      3
+    25      2  1.0E+00     36           1.5E+00  7.1759858E+00      3
+    26      2  1.0E+00     37           1.6E+00  4.7069128E+00      3
+    27      2  1.0E+00     38           1.6E+00  4.0476258E+00      3
+    28      2  1.0E+00     39           1.5E+00  3.4786703E+00      3
+    29      2  1.0E+00     40           1.6E+00  2.8984827E+00      3
+
+ Major Minors     Step   nObj Feasible  Optimal      Objective     nS
+    30      2  1.0E+00     41           1.7E+00  2.7112858E+00      3
+    31      2  1.0E+00     42           1.6E+00  2.6165329E+00      3
+    32      2  1.0E+00     43           1.6E+00  2.5912142E+00      3
+    33      2  1.0E+00     44           1.6E+00  2.5875946E+00      3
+    34      2  1.0E+00     45           1.6E+00  2.5872969E+00      3
+    35      2  1.0E+00     46           7.5E-01  2.5872779E+00      3
+    36      2  1.0E+00     47           5.8E-03  2.5872774E+00      3
+    37      1  1.0E+00     48           3.9E-04  2.5872774E+00      3
+    38      1  1.0E+00     49           6.1E-06  2.5872774E+00      3
+    39      1  1.0E+00     50          (1.9E-08) 2.5872774E+00      3
+ 
+ SNOPTB EXIT   0 -- finished successfully
+ SNOPTB INFO   1 -- optimality conditions satisfied
+
+ Problem name                 weeds
+ No. of iterations                  77   Objective            2.5872773953E+00
+ No. of major iterations            39   Linear    obj. term  0.0000000000E+00
+                                         Nonlinear obj. term  2.5872773953E+00
+ No. of calls to funobj             51   No. of calls to funcon              0
+ No. of superbasics                  3   No. of basic nonlinears             0
+ No. of degenerate steps             0   Percentage                        .00
+ Max x       (scaled)        1 2.0E+02   Max pi      (scaled)        1 1.0E+00
+ Max x                       1 2.0E+02   Max pi                      1 1.0E+00
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)        3 1.9E-08
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             3 1.9E-08
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+77 iterations, objective 2.587277395284202
+Nonlin evals: obj = 51, grad = 50.

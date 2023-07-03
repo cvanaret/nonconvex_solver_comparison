@@ -1,0 +1,31 @@
+You are using the solver conopt.
+Checking ampl.mod for conopt_options...
+Executing AMPL.
+processing data.
+processing commands.
+Executing on prod-exec-7.neos-server.org
+
+Presolve eliminates 12 constraints.
+Substitution eliminates 33 variables.
+Adjusted problem:
+5 variables, all nonlinear
+36 constraints; 109 nonzeros
+        33 nonlinear constraints
+        3 linear constraints
+        36 inequality constraints
+1 nonlinear objective; 5 nonzeros.
+
+CONOPT 3.17A: threads=4
+CONOPT 3.17A: Locally optimal; objective -1.905155259
+8 iterations; evals: nf = 7, ng = 6, nc = 27, nJ = 6, nH = 0, nHv = 0
+x [*] :=
+1  705.175
+2   68.6
+3  102.9
+4  282.325
+5   37.5841
+;
+
+obj = -1.90516
+
+obj + 1.90513375 = -2.15085e-05

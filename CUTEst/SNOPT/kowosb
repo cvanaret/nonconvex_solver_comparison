@@ -1,0 +1,72 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       0     Linear constraints       1
+ Nonlinear variables         4     Linear variables         0
+ Jacobian  variables         0     Objective variables      4
+ Total constraints           1     Total variables          4
+ 
+
+ 
+ The user has defined       4   out of       4   objective  gradients.
+ 
+
+ Major Minors     Step   nObj Feasible  Optimal      Objective     nS
+     0      4               1           1.3E-01  5.3131723E-03      4   r
+     1      1  1.9E-01      3           2.3E-02  3.6910616E-03      4   r
+     2      1  1.2E-02      6           2.8E-02  3.0588310E-03      4 s
+     3      1  6.8E-02      8           1.4E-02  1.2140841E-03      4
+     4      1  5.1E-01     10           2.2E-02  5.3175997E-04      4
+     5      1  1.0E+00     11           1.1E-02  4.9936870E-04      4
+     6      1  1.0E+00     12           1.4E-03  4.8799292E-04      4
+     7      1  1.0E+00     13           3.3E-03  4.7805329E-04      4
+     8      1  1.0E+00     14           1.3E-02  4.4483276E-04      4
+     9      1  1.0E+00     15           1.6E-02  4.1093929E-04      4
+
+ Major Minors     Step   nObj Feasible  Optimal      Objective     nS
+    10      1  1.0E+00     16           8.3E-03  3.8727198E-04      4
+    11      1  1.0E+00     17           1.4E-03  3.8351740E-04      4
+    12      1  1.0E+00     18           2.1E-04  3.8316180E-04      4
+    13      1  1.0E+00     19           8.0E-04  3.8282625E-04      4
+    14      1  1.0E+00     20           2.5E-03  3.8169937E-04      4
+    15      1  1.0E+00     21           5.0E-03  3.7909951E-04      4
+    16      1  1.0E+00     22           9.2E-03  3.7266456E-04      4
+    17      1  1.0E+00     23           1.6E-02  3.5982480E-04      4
+    18      1  1.0E+00     24           2.1E-02  3.4009737E-04      4
+    19      1  1.0E+00     25           9.5E-03  3.2282480E-04      4
+
+ Major Minors     Step   nObj Feasible  Optimal      Objective     nS
+    20      1  4.8E-01     27           4.4E-03  3.1168901E-04      4
+    21      1  4.7E-01     29           7.4E-04  3.0915617E-04      4
+    22      1  1.0E+00     30           3.8E-04  3.0753146E-04      4
+    23      1  1.0E+00     31           4.0E-05  3.0750577E-04      4
+    24      1  1.0E+00     32          (8.7E-07) 3.0750560E-04      4
+ 
+ SNOPTB EXIT   0 -- finished successfully
+ SNOPTB INFO   1 -- optimality conditions satisfied
+
+ Problem name                 kowosb
+ No. of iterations                  28   Objective            3.0750560499E-04
+ No. of major iterations            24   Linear    obj. term  0.0000000000E+00
+                                         Nonlinear obj. term  3.0750560499E-04
+ No. of calls to funobj             33   No. of calls to funcon              0
+ No. of superbasics                  4   No. of basic nonlinears             0
+ No. of degenerate steps             0   Percentage                        .00
+ Max x       (scaled)        1 1.9E-01   Max pi      (scaled)        1 1.0E+00
+ Max x                       1 1.9E-01   Max pi                      1 1.0E+00
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)        1 8.7E-07
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             1 8.7E-07
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+28 iterations, objective 0.00030750560498594303
+Nonlin evals: obj = 33, grad = 32.

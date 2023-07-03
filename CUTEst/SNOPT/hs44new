@@ -1,0 +1,36 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       0     Linear constraints       6
+ Nonlinear variables         4     Linear variables         0
+ Jacobian  variables         0     Objective variables      4
+ Total constraints           6     Total variables          4
+ 
+
+ Itn      0: Feasible linear constraints
+ 
+ SQOPT  EXIT   0 -- finished successfully
+ SQOPT  INFO   1 -- optimality conditions satisfied
+
+ Problem name                 hs44new
+ No. of iterations                   4   Objective           -1.5000000000E+01
+ No. of Hessian products             9   Linear    objective -3.0000000000E+00
+                                         Quadratic objective -1.2000000000E+01
+ No. of degenerate steps             0   Percentage                        .00
+ Max x       (scaled)        4 4.0E+00   Max pi      (scaled)        2 4.3E+00
+ Max x                       4 4.0E+00   Max pi                      4 1.5E+00
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)        2 1.8E-15
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             2 1.3E-15
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+4 iterations, objective -14.999999999999998

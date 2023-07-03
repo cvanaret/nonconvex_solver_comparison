@@ -1,0 +1,5 @@
+LANCELOT: step got too small.
+114 iterations; objective 5174.389443530188
+M = 4, N = 5, nslacks = 1, NEL = 8, NG = 7
+2 nontrivial linear maps reduce 4 variables to 2.
+NFCALL = 110, NGCALL = 98

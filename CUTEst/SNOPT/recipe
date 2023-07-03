@@ -1,0 +1,44 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       1     Linear constraints       2
+ Nonlinear variables         3     Linear variables         0
+ Jacobian  variables         3     Objective variables      3
+ Total constraints           3     Total variables          3
+ 
+
+ 
+ The user has defined       3   out of       3   constraint gradients.
+ SnOptB  will define        3   gradients for the  FP objective.
+ 
+
+ Major Minors     Step   nCon Feasible  Optimal  MeritFunction     nS Penalty
+     0      0               1  4.0E-02  2.0E-01  1.7000000E-03                  r
+     1      0  1.0E+00      2 (4.4E-18)(0.0E+00) 1.7500000E-03        3.7E+01   r
+ 
+ SNOPTB EXIT   0 -- finished successfully
+ SNOPTB INFO   2 -- feasible point found
+
+ Problem name                 recipe
+ No. of iterations                   2   Objective            0.0000000000E+00
+ No. of major iterations             1   Linear    obj. term  0.0000000000E+00
+ Penalty parameter           3.750E+01   Norm (x - x0)**2     1.7500000000E-03
+ No. of calls to funobj              0   No. of calls to funcon              3
+ No. of degenerate steps             0   Percentage                        .00
+ Max x                       1 5.0E+00   Max pi                      3 5.0E-04
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             0 0.0E+00
+ Nonlinear constraint violn    2.2E-17
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Feasible point found.
+2 iterations, objective 0
+Nonlin evals: constrs = 3, Jac = 2.

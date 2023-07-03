@@ -1,0 +1,8 @@
+
+ The size of array WK must be increased by at least       59
+LANCELOT: problem solved.
+0 iterations; objective 32.834999999663594
+M = 0, N = 3, nslacks = 0, NEL = 99, NG = 99
+NFCALL = 1, NGCALL = 1
+LIWK = 2285 (started at 2146)
+LWK = 902 (started at 763)

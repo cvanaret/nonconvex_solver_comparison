@@ -1,0 +1,3 @@
+filterSQP (20020316): Optimal solution found, objective = 2.5872773952841284
+38 iterations (0 for feasibility)
+Evals: obj = 39, constr = 39, grad = 27, Hes = 27

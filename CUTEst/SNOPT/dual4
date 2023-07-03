@@ -1,0 +1,76 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       0     Linear constraints       2
+ Nonlinear variables        75     Linear variables         0
+ Jacobian  variables         0     Objective variables     75
+ Total constraints           2     Total variables         75
+ 
+
+ 
+ The user has defined      75   out of      75   objective  gradients.
+ 
+
+ Major Minors     Step   nObj Feasible  Optimal      Objective     nS
+     0     12               1           1.4E+00  1.1383197E+02     11   r
+     1     16  1.0E+00      2           1.0E-01  1.5238145E+01      3   rl
+     2     45  2.5E-01      4           2.3E-01  7.8784308E+00     47 s
+     3     23  1.0E+00      5           2.6E-01  2.1293721E+00     69
+     4      6  1.0E+00      6           2.7E-01  1.1161917E+00     72
+     5      3  1.0E+00      7           1.8E-01  8.8332514E-01     72
+     6      3  1.0E+00      8           1.4E-01  8.0468629E-01     72
+     7      3  1.0E+00      9           6.9E-02  7.7270389E-01     70
+     8      9  1.0E+00     10           4.4E-02  7.5374274E-01     64
+     9      3  1.0E+00     11           3.5E-02  7.4935875E-01     62
+
+ Major Minors     Step   nObj Feasible  Optimal      Objective     nS
+    10      3  1.0E+00     12           1.4E-02  7.4691446E-01     60
+    11      2  1.0E+00     13           8.1E-03  7.4641883E-01     61
+    12      1  1.0E+00     14           5.4E-03  7.4621188E-01     61
+    13      1  1.0E+00     15           3.6E-03  7.4613595E-01     61
+    14      1  1.0E+00     16           2.0E-03  7.4610948E-01     61
+    15      1  1.0E+00     17           1.3E-03  7.4609908E-01     61
+    16      1  1.0E+00     18           7.5E-04  7.4609459E-01     61
+    17      1  1.0E+00     19           5.1E-04  7.4609254E-01     61
+    18      1  1.0E+00     20           4.2E-04  7.4609148E-01     61
+    19      1  1.0E+00     21           3.2E-04  7.4609095E-01     61
+
+ Major Minors     Step   nObj Feasible  Optimal      Objective     nS
+    20      1  1.0E+00     22           1.9E-04  7.4609076E-01     61
+    21      1  1.0E+00     23           1.3E-04  7.4609070E-01     61
+    22      1  1.0E+00     24           7.3E-05  7.4609067E-01     61
+    23      1  1.0E+00     25           3.8E-05  7.4609066E-01     61
+    24      1  1.0E+00     26           2.7E-05  7.4609065E-01     61
+    25      1  1.0E+00     27           1.4E-05  7.4609065E-01     61
+    26      1  1.0E+00     28           1.0E-05  7.4609065E-01     61
+    27      1  1.0E+00     29           4.1E-06  7.4609065E-01     61
+    28      1  1.0E+00     30          (1.2E-06) 7.4609065E-01     61
+ 
+ SNOPTB EXIT   0 -- finished successfully
+ SNOPTB INFO   1 -- optimality conditions satisfied
+
+ Problem name                 dual4
+ No. of iterations                 145   Objective            7.4609064940E-01
+ No. of major iterations            28   Linear    obj. term  0.0000000000E+00
+                                         Nonlinear obj. term  7.4609064940E-01
+ No. of calls to funobj             31   No. of calls to funcon              0
+ No. of superbasics                 61   No. of basic nonlinears             1
+ No. of degenerate steps             0   Percentage                        .00
+ Max x       (scaled)       51 4.2E-02   Max pi      (scaled)        2 1.0E+00
+ Max x                      51 4.2E-02   Max pi                      2 1.0E+00
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)       44 1.4E-05
+ Max Primal infeas           0 0.0E+00   Max Dual infeas            44 1.4E-05
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+145 iterations, objective 0.7460906493971923
+Nonlin evals: obj = 31, grad = 30.

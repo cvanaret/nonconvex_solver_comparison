@@ -1,0 +1,34 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       0     Linear constraints       4
+ Nonlinear variables         0     Linear variables         2
+ Jacobian  variables         0     Objective variables      0
+ Total constraints           4     Total variables          2
+ 
+
+ Itn      1: Feasible linear constraints
+ 
+ SQOPT  EXIT   0 -- finished successfully
+ SQOPT  INFO   1 -- optimality conditions satisfied
+
+ Problem name                 simpllpb
+ No. of iterations                   1   Objective            1.1000000000E+00
+ No. of degenerate steps             0   Percentage                        .00
+ Max x       (scaled)        2 8.0E-01   Max pi      (scaled)        4 1.0E+00
+ Max x                       2 8.0E-01   Max pi                      4 1.0E+00
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)        0 0.0E+00
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             0 0.0E+00
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+1 iterations, objective 1.0999999999999999

@@ -1,0 +1,104 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       0     Linear constraints       1
+ Nonlinear variables         3     Linear variables         0
+ Jacobian  variables         0     Objective variables      3
+ Total constraints           1     Total variables          3
+ 
+
+ 
+ The user has defined       3   out of       3   objective  gradients.
+ 
+
+ Major Minors     Step   nObj Feasible  Optimal      Objective     nS
+     0      3               1           1.6E+00  1.2110706E+01      3   r
+     1      1  1.0E-01      3           1.7E+00  7.0810300E+00      3   r
+     2      1  4.6E-02      5           1.6E+00  6.7094297E+00      3 s
+     3      1  1.0E+00      6           7.2E-01  6.6219765E+00      3
+     4      1  1.0E+00      7           2.2E-01  6.6210265E+00      3
+     5      1  1.0E+00      8           2.2E-01  6.6208207E+00      3
+     6      1  1.0E+00      9           6.5E-01  6.6189835E+00      3
+     7      1  1.0E+00     10           1.3E+00  6.6154538E+00      3
+     8      1  1.0E+00     11           1.5E+00  6.6052145E+00      3
+     9      1  1.0E+00     12           1.6E+00  6.5819166E+00      3
+
+ Major Minors     Step   nObj Feasible  Optimal      Objective     nS
+    10      2  1.0E+00     13           1.6E+00  6.5334707E+00      3
+    11      2  1.0E+00     14           1.6E+00  6.4487812E+00      3
+    12      2  1.0E+00     15           1.6E+00  6.2838297E+00      3
+    13      2  1.0E+00     16           1.6E+00  5.9881171E+00      3
+    14      2  1.0E+00     17           1.6E+00  5.6526079E+00      3
+    15      2  1.0E+00     18           1.7E+00  5.3163668E+00      3
+    16      2  1.0E+00     19           1.6E+00  4.7752144E+00      3
+    17      2  1.0E+00     20           1.7E+00  4.2332884E+00      3
+    18      2  1.0E+00     21           1.6E+00  2.6491425E+00      3
+    19      2  4.6E-01     23           3.2E-01  3.1653092E-02      3
+
+ Major Minors     Step   nObj Feasible  Optimal      Objective     nS
+    20      2  1.5E-01     25           1.0E+00  1.1340487E-02      3
+    21      2  1.0E+00     26           5.5E-01  6.3357998E-03      3
+    22      2  1.0E+00     27           1.4E-02  4.5664261E-03      3
+    23      2  1.0E+00     28           1.3E-03  4.5612224E-03      3
+    24      1  1.0E+00     29           5.3E-04  4.5612062E-03      3
+    25      2  1.3E+02     32           2.9E-03  4.5611188E-03      3
+    26      2  6.0E+00     34           1.0E-02  4.5601666E-03      3
+    27      2  1.0E+00     35           1.9E-02  4.5572336E-03      3
+    28      2  1.0E+00     36           4.5E-02  4.5430568E-03      3
+    29      2  1.0E+00     37           8.0E-02  4.5117050E-03      3
+
+ Major Minors     Step   nObj Feasible  Optimal      Objective     nS
+    30      3  1.0E+00     38           1.4E-01  4.4150195E-03      3
+    31      4  3.2E+00     42           2.7E-02  2.7641221E-03      3
+    32      4  9.6E-04     45           9.8E-03  2.7366308E-03      3
+    33      3  1.0E+00     46           1.6E-01  2.4019110E-03      3
+    34      3  1.0E+00     47           2.0E-01  2.0588209E-03      3
+    35      3  1.0E+00     48           1.3E-01  1.8346589E-03      3
+    36      3  1.0E+00     49           1.6E-01  1.7682913E-03      3
+    37      3  1.0E+00     50           2.5E-01  1.5542659E-03      3
+    38      4  1.0E+00     51           2.2E-01  1.2769870E-03      3
+    39      4  1.0E+00     52           1.7E-02  6.7189435E-04      3
+
+ Major Minors     Step   nObj Feasible  Optimal      Objective     nS
+    40      4  4.0E-01     54           1.5E-01  4.9804949E-04      3
+    41      4  1.0E+00     55           1.1E-01  3.0995832E-04      3
+    42      4  1.0E+00     56           2.0E-04  1.3263754E-04      3
+    43      4  3.3E-01     58           8.2E-02  7.8016967E-05      3
+    44      4  1.0E+00     59           3.4E-02  3.3820561E-05      3
+    45      4  1.0E+00     60           3.1E-02  6.9019320E-06      3
+    46      4  1.0E+00     61           1.3E-02  1.7305401E-06      3
+    47      3  1.0E+00     62           8.8E-04  2.5505686E-08      3
+    48      3  1.0E+00     63           4.0E-04  1.1809918E-09      3
+    49      3  1.0E+00     64           7.4E-06  7.2076182E-13      3
+
+ Major Minors     Step   nObj Feasible  Optimal      Objective     nS
+    50      2  1.0E+00     65          (1.9E-07) 6.8676514E-16      3
+ 
+ SNOPTB EXIT   0 -- finished successfully
+ SNOPTB INFO   1 -- optimality conditions satisfied
+
+ Problem name                 gulf
+ No. of iterations                 124   Objective            6.8676514174E-16
+ No. of major iterations            50   Linear    obj. term  0.0000000000E+00
+                                         Nonlinear obj. term  6.8676514174E-16
+ No. of calls to funobj             66   No. of calls to funcon              0
+ No. of superbasics                  3   No. of basic nonlinears             0
+ No. of degenerate steps             0   Percentage                        .00
+ Max x       (scaled)        1 5.0E+01   Max pi      (scaled)        1 1.0E+00
+ Max x                       1 5.0E+01   Max pi                      1 1.0E+00
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)        3 1.9E-07
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             3 1.9E-07
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+124 iterations, objective 6.867651417396284e-16
+Nonlin evals: obj = 66, grad = 65.

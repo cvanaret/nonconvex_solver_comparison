@@ -1,0 +1,34 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       0     Linear constraints      16
+ Nonlinear variables         0     Linear variables        20
+ Jacobian  variables         0     Objective variables      0
+ Total constraints          16     Total variables         20
+ 
+
+ Itn     26: Feasible linear constraints
+ 
+ SQOPT  EXIT   0 -- finished successfully
+ SQOPT  INFO   1 -- optimality conditions satisfied
+
+ Problem name                 degenlpb
+ No. of iterations                  26   Objective           -3.0731245969E+01
+ No. of degenerate steps             1   Percentage                       3.85
+ Max x       (scaled)       10 1.5E-02   Max pi      (scaled)       15 7.7E+04
+ Max x                       1 2.5E-01   Max pi                      6 1.4E+04
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)        1 1.2E-10
+ Max Primal infeas           0 0.0E+00   Max Dual infeas             6 2.1E-10
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+26 iterations, objective -30.73124596931376

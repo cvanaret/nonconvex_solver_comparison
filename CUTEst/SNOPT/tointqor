@@ -1,0 +1,37 @@
+outlev=2
+ 
+ SNMEMB EXIT 100 -- finished successfully
+ SNMEMB INFO 104 -- memory requirements estimated
+ 
+
+ Nonlinear constraints       0     Linear constraints       1
+ Nonlinear variables        50     Linear variables         0
+ Jacobian  variables         0     Objective variables     50
+ Total constraints           1     Total variables         50
+ 
+
+ Itn      0: Feasible linear constraints
+ 
+ SQOPT  EXIT   0 -- finished successfully
+ SQOPT  INFO   1 -- optimality conditions satisfied
+
+ Problem name                 tointqor
+ No. of iterations                  50   Objective            1.1754722221E+03
+ No. of Hessian products           101   Linear    objective  1.5656944292E+01
+                                         Quadratic objective  1.1598152779E+03
+ No. of superbasics                 50   No. of basic nonlinears             0
+ No. of degenerate steps             0   Percentage                        .00
+ Max x       (scaled)       19 7.1E+00   Max pi      (scaled)        1 1.0E+00
+ Max x                      19 7.1E+00   Max pi                      1 1.0E+00
+ Max Prim inf(scaled)        0 0.0E+00   Max Dual inf(scaled)       45 5.0E-19
+ Max Primal infeas           0 0.0E+00   Max Dual infeas            45 5.0E-19
+
+ Solution not printed
+ 
+ Time for MPS input                              .00 seconds
+ Time for solving problem                        .00 seconds
+ Time for solution output                        .00 seconds
+ Time for constraint functions                   .00 seconds
+ Time for objective function                     .00 seconds
+SNOPT 7.5-1.2 : Optimal solution found.
+50 iterations, objective 1175.4722221461689

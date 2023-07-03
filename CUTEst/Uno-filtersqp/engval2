@@ -1,0 +1,157 @@
+Options:
+- BQPD_kmax = 500
+- BQPD_print_subproblem = no
+- LP_solver = BQPD
+- LS_backtracking_ratio = 0.5
+- LS_min_step_length = 1e-12
+- LS_scale_duals_with_step_length = yes
+- QP_solver = BQPD
+- TR_activity_tolerance = 1e-6
+- TR_aggressive_decrease_factor = 4
+- TR_decrease_factor = 2
+- TR_increase_factor = 2
+- TR_min_radius = 1e-8
+- TR_radius = 10
+- TR_radius_reset_threshold = 1e-4
+- armijo_decrease_fraction = 1e-4
+- armijo_tolerance = 1e-9
+- barrier_damping_factor = 1e-5
+- barrier_default_multiplier = 1
+- barrier_initial_parameter = 0.1
+- barrier_k_epsilon = 10
+- barrier_k_mu = 0.2
+- barrier_k_sigma = 1e10
+- barrier_push_variable_to_interior_k1 = 1e-2
+- barrier_push_variable_to_interior_k2 = 1e-2
+- barrier_regularization_exponent = 0.25
+- barrier_small_direction_factor = 10.
+- barrier_smax = 100
+- barrier_tau_min = 0.99
+- barrier_theta_mu = 1.5
+- barrier_update_fraction = 10
+- constraint_relaxation_strategy = feasibility_restoration
+- convexify_QP = false
+- dual_regularization_fraction = 1e-8
+- enforce_linear_constraints = yes
+- feasibility_restoration_test_linearized_feasibility = yes
+- filter_beta = 0.999
+- filter_capacity = 50
+- filter_delta = 0.999
+- filter_fact = 1.25
+- filter_gamma = 0.001
+- filter_switching_infeasibility_exponent = 2
+- filter_type = standard
+- filter_ubd = 1e2
+- function_scaling_factor = 100
+- function_scaling_threshold = 100
+- globalization_mechanism = TR
+- globalization_strategy = leyffer_filter_strategy
+- hessian_model = exact
+- l1_constraint_violation_coefficient = 1.
+- l1_relaxation_decrease_factor = 10.
+- l1_relaxation_epsilon1 = 0.1
+- l1_relaxation_epsilon2 = 0.1
+- l1_relaxation_fixed_parameter = no
+- l1_relaxation_initial_parameter = 1.
+- l1_relaxation_residual_small_threshold = 1e-12
+- l1_small_duals_threshold = 1e-10
+- least_square_multiplier_max_norm = 1e3
+- linear_solver = MA57
+- logger = INFO
+- max_iterations = 4000
+- nonmonotone_filter_number_dominated_entries = 3
+- primal_regularization_decrease_factor = 3.
+- primal_regularization_fast_increase_factor = 100.
+- primal_regularization_initial_factor = 1e-4
+- primal_regularization_lb = 1e-20
+- primal_regularization_slow_increase_factor = 8.
+- print_solution = no
+- progress_norm = L1
+- regularization_failure_threshold = 1e40
+- regularization_increase_factor = 2
+- regularization_initial_value = 1e-4
+- residual_norm = L2
+- residual_scaling_threshold = 100.
+- scale_functions = no
+- scale_residuals = yes
+- sparse_format = CSC
+- statistics_LS_step_length_column_order = 30
+- statistics_SOC_column_order = 9
+- statistics_TR_radius_column_order = 30
+- statistics_barrier_parameter_column_order = 8
+- statistics_complementarity_column_order = 104
+- statistics_dual_infeasibility_column_order = 102
+- statistics_major_column_order = 1
+- statistics_minor_column_order = 2
+- statistics_objective_column_order = 100
+- statistics_penalty_parameter_column_order = 5
+- statistics_primal_infeasibility_column_order = 101
+- statistics_print_header_every_iterations = 15
+- statistics_regularization_column_order = 6
+- statistics_restoration_phase_column_order = 4
+- statistics_stationarity_column_order = 105
+- statistics_step_norm_column_order = 31
+- subproblem = QP
+- threshold_unsuccessful_attempts = 8
+- time_limit = inf
+- tolerance = 1e-6
+- unbounded_objective_threshold = -1e20
+Preprocessing phase: the problem has 0 linear constraints
+
+Problem /media/data/AMPL/CUTEst/engval2
+3 variables, 0 constraints
+
+┌───────┬──────────┬───────┬─────────────────┬─────────────────┬─────────────────┬─────────────────┬─────────────────┐
+│ iters │ TR iters │ phase │ TR radius       │ step norm       │ objective       │ complementarity │ stationarity    │
+├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 1     │ 5        │ 2     │ 1.25            │ 0.625           │ 123.7489        │ 0               │ 180.1138        │
+├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 2     │ 1        │ 2     │ 1.25            │ 1.054094        │ 116.4252        │ 0               │ 1277.61         │
+├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 3     │ 1        │ 2     │ 1.25            │ 0.2878254       │ 10.3022         │ 0               │ 160.8339        │
+├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 4     │ 1        │ 2     │ 1.25            │ 0.3560829       │ 2.868895        │ 0               │ 44.37785        │
+├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 5     │ 1        │ 2     │ 1.25            │ 0.3243387       │ 0.7650034       │ 0               │ 39.20137        │
+├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 6     │ 1        │ 2     │ 1.25            │ 0.2023324       │ 0.1958253       │ 0               │ 14.87045        │
+├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 7     │ 1        │ 2     │ 1.25            │ 0.1488057       │ 0.04916917      │ 0               │ 7.809552        │
+├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 8     │ 1        │ 2     │ 1.25            │ 0.09884964      │ 0.01231684      │ 0               │ 3.308758        │
+├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 9     │ 1        │ 2     │ 1.25            │ 0.07200742      │ 0.002750292     │ 0               │ 1.770873        │
+├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 10    │ 1        │ 2     │ 1.25            │ 0.0501001       │ 0.0003761499    │ 0               │ 0.8830627       │
+├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 11    │ 1        │ 2     │ 1.25            │ 0.02527854      │ 1.291337e-05    │ 0               │ 0.2312152       │
+├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 12    │ 1        │ 2     │ 1.25            │ 0.005082627     │ 1.956827e-08    │ 0               │ 0.009472768     │
+├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 13    │ 1        │ 2     │ 1.25            │ 0.0002018116    │ 4.737027e-14    │ 0               │ 1.496998e-05    │
+├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ 14    │ 1        │ 2     │ 1.25            │ 3.123376e-07    │ 2.824044e-25    │ 0               │ 3.663305e-11    │
+└───────┴──────────┴───────┴─────────────────┴─────────────────┴─────────────────┴─────────────────┴─────────────────┘
+
+Uno (TR feasibility_restoration leyffer_filter_strategy QP)
+Thu May 25 18:21:17 2023
+────────────────────────────────────────
+Status:					Converged with feasible KKT point
+Objective value:			2.824044e-25
+┌ Optimality stationarity residual:	3.663305e-11
+│ Feasibility stationarity residual:	0
+│ Constraint violation:			0
+│ Optimality complementarity residual:	0
+└ Feasibility complementarity residual:	0
+┌ Infeasibility measure:		0
+│ Optimality measure:			2.824044e-25
+└ Auxiliary measure:			0
+CPU time:				0.000683s
+Iterations:				14
+Objective evaluations:			19
+Constraints evaluations:		19
+Objective gradient evaluations:		15
+Jacobian evaluations:			15
+Hessian evaluations:			14
+Number of subproblems solved:		18
+memory_allocation_amount = 0
