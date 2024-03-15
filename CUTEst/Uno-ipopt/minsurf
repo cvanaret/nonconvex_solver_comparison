@@ -33,7 +33,6 @@ Options:
 - convexify_QP = false
 - dual_regularization_fraction = 1e-8
 - enforce_linear_constraints = no
-- feasibility_restoration_test_linearized_feasibility = no
 - filter_beta = 0.99999
 - filter_capacity = 50
 - filter_delta = 1
@@ -45,7 +44,7 @@ Options:
 - function_scaling_factor = 100
 - function_scaling_threshold = 100
 - globalization_mechanism = LS
-- globalization_strategy = waechter_filter_strategy
+- globalization_strategy = waechter_filter_method
 - hessian_model = exact
 - l1_constraint_violation_coefficient = 1000.
 - l1_relaxation_decrease_factor = 10.
@@ -77,9 +76,9 @@ Options:
 - scale_functions = yes
 - scale_residuals = yes
 - sparse_format = COO
-- statistics_LS_step_length_column_order = 30
+- statistics_LS_step_length_column_order = 10
 - statistics_SOC_column_order = 9
-- statistics_TR_radius_column_order = 30
+- statistics_TR_radius_column_order = 10
 - statistics_barrier_parameter_column_order = 8
 - statistics_complementarity_column_order = 104
 - statistics_dual_infeasibility_column_order = 102
@@ -89,11 +88,14 @@ Options:
 - statistics_penalty_parameter_column_order = 5
 - statistics_primal_infeasibility_column_order = 101
 - statistics_print_header_every_iterations = 15
-- statistics_regularization_column_order = 6
-- statistics_restoration_phase_column_order = 4
+- statistics_regularization_column_order = 21
+- statistics_restoration_phase_column_order = 20
 - statistics_stationarity_column_order = 105
+- statistics_status_column_order = 200
 - statistics_step_norm_column_order = 31
 - subproblem = primal_dual_interior_point
+- switch_to_optimality_requires_acceptance = yes
+- switch_to_optimality_requires_linearized_feasibility = no
 - threshold_unsuccessful_attempts = 8
 - time_limit = inf
 - tolerance = 1e-8
@@ -102,20 +104,38 @@ Options:
 Problem /media/data/AMPL/CUTEst/minsurf_scaled_equalityconstrained_boundrelaxed
 36 variables, 0 constraints
 
-┌───────┬──────────┬───────┬─────────────────┬─────────────────┬─────────────────┬─────────────────┬─────────────────┬─────────────────┬─────────────────┐
-│ iters │ LS iters │ phase │ regularization  │ barrier param.  │ LS step length  │ step norm       │ objective       │ complementarity │ stationarity    │
-├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
-│ 1     │ 6        │ 2     │ 0               │ 0.02            │ 0.03125         │ 1.39957         │ 1.898502        │ 0               │ 0.2220199       │
-├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
-│ 2     │ 4        │ 2     │ 0               │ 0.02            │ 0.125           │ 0.4030685       │ 1.000211        │ 0               │ 0.01089589      │
-├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
-│ 3     │ 1        │ 2     │ 0               │ 0.0001504241    │ 1               │ 0.005328956     │ 1               │ 0               │ 9.567991e-06    │
-├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
-│ 4     │ 1        │ 2     │ 0               │ 2.505904e-09    │ 1               │ 4.564626e-06    │ 1               │ 0               │ 6.050715e-15    │
-└───────┴──────────┴───────┴─────────────────┴─────────────────┴─────────────────┴─────────────────┴─────────────────┴─────────────────┴─────────────────┘
+┌───────┬─────────┬────────────────┬──────────────┬───────┬────────────────┬────────────────┬───────────────┬─────────────────┬────────────────┬──────────────────────────┐
+│ iter  │ LS iter │ barrier param. │ step length  │ phase │ regularization │ step norm      │ objective     │ complementarity │ stationarity   │ status                   │
+├───────┼─────────┼────────────────┼──────────────┼───────┼────────────────┼────────────────┼───────────────┼─────────────────┼────────────────┼──────────────────────────┤
+│ 0     │ -       │ -              │ -            │ 2     │ -              │ -              │ 3.808579      │ 0               │ 0.2404361      │ initial point            │
+├───────┼─────────┼────────────────┼──────────────┼───────┼────────────────┼────────────────┼───────────────┼─────────────────┼────────────────┼──────────────────────────┤
+│ 1     │ 1       │ 0.02           │ 1            │ 2     │ 0              │ 44.78625       │ 3.808579      │ inf             │ inf            │ rejected (Armijo)        │
+├───────┼─────────┼────────────────┼──────────────┼───────┼────────────────┼────────────────┼───────────────┼─────────────────┼────────────────┼──────────────────────────┤
+│ -     │ 2       │ -              │ 0.5          │ 2     │ -              │ 22.39312       │ -             │ inf             │ inf            │ rejected (Armijo)        │
+├───────┼─────────┼────────────────┼──────────────┼───────┼────────────────┼────────────────┼───────────────┼─────────────────┼────────────────┼──────────────────────────┤
+│ -     │ 3       │ -              │ 0.25         │ 2     │ -              │ 11.19656       │ -             │ inf             │ inf            │ rejected (Armijo)        │
+├───────┼─────────┼────────────────┼──────────────┼───────┼────────────────┼────────────────┼───────────────┼─────────────────┼────────────────┼──────────────────────────┤
+│ -     │ 4       │ -              │ 0.125        │ 2     │ -              │ 5.598281       │ -             │ inf             │ inf            │ rejected (Armijo)        │
+├───────┼─────────┼────────────────┼──────────────┼───────┼────────────────┼────────────────┼───────────────┼─────────────────┼────────────────┼──────────────────────────┤
+│ -     │ 5       │ -              │ 0.0625       │ 2     │ -              │ 2.799141       │ -             │ inf             │ inf            │ rejected (Armijo)        │
+├───────┼─────────┼────────────────┼──────────────┼───────┼────────────────┼────────────────┼───────────────┼─────────────────┼────────────────┼──────────────────────────┤
+│ -     │ 6       │ -              │ 0.03125      │ 2     │ -              │ 1.39957        │ -             │ 0               │ 0.2220199      │ accepted (Armijo)        │
+├───────┼─────────┼────────────────┼──────────────┼───────┼────────────────┼────────────────┼───────────────┼─────────────────┼────────────────┼──────────────────────────┤
+│ 2     │ 1       │ 0.02           │ 1            │ 2     │ 0              │ 3.224548       │ 1.898502      │ inf             │ inf            │ rejected (Armijo)        │
+├───────┼─────────┼────────────────┼──────────────┼───────┼────────────────┼────────────────┼───────────────┼─────────────────┼────────────────┼──────────────────────────┤
+│ -     │ 2       │ -              │ 0.5          │ 2     │ -              │ 1.612274       │ -             │ inf             │ inf            │ rejected (Armijo)        │
+├───────┼─────────┼────────────────┼──────────────┼───────┼────────────────┼────────────────┼───────────────┼─────────────────┼────────────────┼──────────────────────────┤
+│ -     │ 3       │ -              │ 0.25         │ 2     │ -              │ 0.806137       │ -             │ inf             │ inf            │ rejected (Armijo)        │
+├───────┼─────────┼────────────────┼──────────────┼───────┼────────────────┼────────────────┼───────────────┼─────────────────┼────────────────┼──────────────────────────┤
+│ -     │ 4       │ -              │ 0.125        │ 2     │ -              │ 0.4030685      │ -             │ 0               │ 0.01089589     │ accepted (Armijo)        │
+├───────┼─────────┼────────────────┼──────────────┼───────┼────────────────┼────────────────┼───────────────┼─────────────────┼────────────────┼──────────────────────────┤
+│ 3     │ 1       │ 0.0001504241   │ 1            │ 2     │ 0              │ 0.005328956    │ 1.000211      │ 0               │ 9.567991e-06   │ accepted (Armijo)        │
+├───────┼─────────┼────────────────┼──────────────┼───────┼────────────────┼────────────────┼───────────────┼─────────────────┼────────────────┼──────────────────────────┤
+│ 4     │ 1       │ 2.505904e-09   │ 1            │ 2     │ 0              │ 4.564626e-06   │ 1             │ 0               │ 6.050715e-15   │ accepted (Armijo)        │
+└───────┴─────────┴────────────────┴──────────────┴───────┴────────────────┴────────────────┴───────────────┴─────────────────┴────────────────┴──────────────────────────┘
 
-Uno (LS feasibility_restoration waechter_filter_strategy primal_dual_interior_point)
-Wed Jun  7 16:04:30 2023
+Uno (LS feasibility_restoration waechter_filter_method primal_dual_interior_point)
+Fri Mar 15 11:27:28 2024
 ────────────────────────────────────────
 Status:					Converged with feasible KKT point
 Objective value:			1
@@ -127,7 +147,7 @@ Objective value:			1
 ┌ Infeasibility measure:		0
 │ Optimality measure:			1
 └ Auxiliary measure:			0
-CPU time:				0.000961s
+CPU time:				0.001981s
 Iterations:				4
 Objective evaluations:			13
 Constraints evaluations:		14

@@ -33,7 +33,6 @@ Options:
 - convexify_QP = false
 - dual_regularization_fraction = 1e-8
 - enforce_linear_constraints = yes
-- feasibility_restoration_test_linearized_feasibility = yes
 - filter_beta = 0.999
 - filter_capacity = 50
 - filter_delta = 0.999
@@ -45,7 +44,7 @@ Options:
 - function_scaling_factor = 100
 - function_scaling_threshold = 100
 - globalization_mechanism = TR
-- globalization_strategy = leyffer_filter_strategy
+- globalization_strategy = leyffer_filter_method
 - hessian_model = exact
 - l1_constraint_violation_coefficient = 1.
 - l1_relaxation_decrease_factor = 10.
@@ -58,6 +57,8 @@ Options:
 - least_square_multiplier_max_norm = 1e3
 - linear_solver = MA57
 - logger = INFO
+- loose_tolerance = 1e-6
+- loose_tolerance_consecutive_iteration_threshold = 15
 - max_iterations = 4000
 - nonmonotone_filter_number_dominated_entries = 3
 - primal_regularization_decrease_factor = 3.
@@ -75,9 +76,9 @@ Options:
 - scale_functions = no
 - scale_residuals = yes
 - sparse_format = CSC
-- statistics_LS_step_length_column_order = 30
+- statistics_LS_step_length_column_order = 10
 - statistics_SOC_column_order = 9
-- statistics_TR_radius_column_order = 30
+- statistics_TR_radius_column_order = 10
 - statistics_barrier_parameter_column_order = 8
 - statistics_complementarity_column_order = 104
 - statistics_dual_infeasibility_column_order = 102
@@ -87,44 +88,49 @@ Options:
 - statistics_penalty_parameter_column_order = 5
 - statistics_primal_infeasibility_column_order = 101
 - statistics_print_header_every_iterations = 15
-- statistics_regularization_column_order = 6
-- statistics_restoration_phase_column_order = 4
+- statistics_regularization_column_order = 21
+- statistics_restoration_phase_column_order = 20
 - statistics_stationarity_column_order = 105
+- statistics_status_column_order = 200
 - statistics_step_norm_column_order = 31
 - subproblem = QP
+- switch_to_optimality_requires_acceptance = no
+- switch_to_optimality_requires_linearized_feasibility = yes
 - threshold_unsuccessful_attempts = 8
 - time_limit = inf
 - tolerance = 1e-6
 - unbounded_objective_threshold = -1e20
-Preprocessing phase: the problem has 0 linear constraints
 
 Problem /media/data/AMPL/CUTEst/dixchlng
 10 variables, 5 constraints
 
-┌───────┬──────────┬───────┬─────────────────┬─────────────────┬─────────────────┬─────────────────┬─────────────────┬─────────────────┐
-│ iters │ TR iters │ phase │ TR radius       │ step norm       │ objective       │ primal infeas.  │ complementarity │ stationarity    │
-├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
-│ 1     │ 1        │ 2     │ 10              │ 2.028056        │ 63549.04        │ 1.57657         │ 0               │ 40684.46        │
-├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
-│ 2     │ 1        │ 2     │ 10              │ 1.373201        │ 13533.91        │ 2.450858        │ 0               │ 12194.77        │
-├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
-│ 3     │ 1        │ 2     │ 10              │ 0.962493        │ 3609.102        │ 1.296411        │ 0               │ 3830.559        │
-├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
-│ 4     │ 1        │ 2     │ 10              │ 0.9779146       │ 3330.852        │ 1.89027         │ 0               │ 4502.052        │
-├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
-│ 5     │ 1        │ 2     │ 10              │ 1.013496        │ 2381.409        │ 0.6765395       │ 0               │ 1676.037        │
-├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
-│ 6     │ 1        │ 2     │ 10              │ 0.4186498       │ 2389.651        │ 0.173737        │ 0               │ 468.2677        │
-├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
-│ 7     │ 1        │ 2     │ 10              │ 0.08986529      │ 2470.016        │ 0.005014093     │ 0               │ 29.3521         │
-├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
-│ 8     │ 1        │ 2     │ 10              │ 0.01784474      │ 2471.838        │ 0.0001082785    │ 0               │ 0.2434121       │
-├───────┼──────────┼───────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┼─────────────────┤
-│ 9     │ 1        │ 2     │ 10              │ 0.000162076     │ 2471.898        │ 9.584722e-10    │ 0               │ 3.969838e-06    │
-└───────┴──────────┴───────┴─────────────────┴─────────────────┴─────────────────┴─────────────────┴─────────────────┴─────────────────┘
+Preprocessing phase: the problem has 0 linear constraints
+┌───────┬──────────┬──────────────┬───────┬────────────────┬───────────────┬─────────────────┬─────────────────┬────────────────┬──────────────────────────┐
+│ iter  │ TR iter  │ TR radius    │ phase │ step norm      │ objective     │ primal infeas.  │ complementarity │ stationarity   │ status                   │
+├───────┼──────────┼──────────────┼───────┼────────────────┼───────────────┼─────────────────┼─────────────────┼────────────────┼──────────────────────────┤
+│ 0     │ -        │ 10           │ 2     │ -              │ 313465.5      │ 1.99999e-05     │ 0               │ 136758.5       │ initial point            │
+├───────┼──────────┼──────────────┼───────┼────────────────┼───────────────┼─────────────────┼─────────────────┼────────────────┼──────────────────────────┤
+│ 1     │ 1        │ 10           │ 2     │ 2.028056       │ 63549.04      │ 0.7514177       │ 0               │ 40684.46       │ accepted (Armijo)        │
+├───────┼──────────┼──────────────┼───────┼────────────────┼───────────────┼─────────────────┼─────────────────┼────────────────┼──────────────────────────┤
+│ 2     │ 1        │ 10           │ 2     │ 1.373201       │ 13533.91      │ 1.112343        │ 0               │ 12194.77       │ accepted (Armijo)        │
+├───────┼──────────┼──────────────┼───────┼────────────────┼───────────────┼─────────────────┼─────────────────┼────────────────┼──────────────────────────┤
+│ 3     │ 1        │ 10           │ 2     │ 0.962493       │ 3609.102      │ 0.6383354       │ 0               │ 3830.559       │ accepted (Armijo)        │
+├───────┼──────────┼──────────────┼───────┼────────────────┼───────────────┼─────────────────┼─────────────────┼────────────────┼──────────────────────────┤
+│ 4     │ 1        │ 10           │ 2     │ 0.9779146      │ 3330.852      │ 1.059981        │ 0               │ 4502.052       │ accepted (Armijo)        │
+├───────┼──────────┼──────────────┼───────┼────────────────┼───────────────┼─────────────────┼─────────────────┼────────────────┼──────────────────────────┤
+│ 5     │ 1        │ 10           │ 2     │ 1.013496       │ 2381.409      │ 0.4187159       │ 0               │ 1676.037       │ accepted (Armijo)        │
+├───────┼──────────┼──────────────┼───────┼────────────────┼───────────────┼─────────────────┼─────────────────┼────────────────┼──────────────────────────┤
+│ 6     │ 1        │ 10           │ 2     │ 0.4186498      │ 2389.651      │ 0.1086948       │ 0               │ 468.2677       │ accepted (!switching)    │
+├───────┼──────────┼──────────────┼───────┼────────────────┼───────────────┼─────────────────┼─────────────────┼────────────────┼──────────────────────────┤
+│ 7     │ 1        │ 10           │ 2     │ 0.08986529     │ 2470.016      │ 0.004268389     │ 0               │ 29.3521        │ accepted (!switching)    │
+├───────┼──────────┼──────────────┼───────┼────────────────┼───────────────┼─────────────────┼─────────────────┼────────────────┼──────────────────────────┤
+│ 8     │ 1        │ 10           │ 2     │ 0.01784474     │ 2471.838      │ 0.0001070371    │ 0               │ 0.2434121      │ accepted (!switching)    │
+├───────┼──────────┼──────────────┼───────┼────────────────┼───────────────┼─────────────────┼─────────────────┼────────────────┼──────────────────────────┤
+│ 9     │ 1        │ 10           │ 2     │ 0.000162076    │ 2471.898      │ 9.187272e-10    │ 0               │ 3.969838e-06   │ accepted (!switching)    │
+└───────┴──────────┴──────────────┴───────┴────────────────┴───────────────┴─────────────────┴─────────────────┴────────────────┴──────────────────────────┘
 
-Uno (TR feasibility_restoration leyffer_filter_strategy QP)
-Thu May 25 18:21:17 2023
+Uno (TR feasibility_restoration leyffer_filter_method QP)
+Fri Mar 15 11:26:51 2024
 ────────────────────────────────────────
 Status:					Converged with feasible KKT point
 Objective value:			2471.898
@@ -136,7 +142,7 @@ Objective value:			2471.898
 ┌ Infeasibility measure:		9.584722e-10
 │ Optimality measure:			2471.898
 └ Auxiliary measure:			0
-CPU time:				0.000851s
+CPU time:				0.001114s
 Iterations:				9
 Objective evaluations:			10
 Constraints evaluations:		10
