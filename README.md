@@ -14,4 +14,4 @@ for the following solvers:
 * LOQO 7.03
 * MINOS 5.51
 * SNOPT 7.5-1.2
-* Uno 1.0
+* [Uno 1.0](https://github.com/cvanaret/Uno)
